@@ -1,0 +1,53 @@
+id;name;country;country_id;num;evaluation;group
+1;Premier League;England;GBR;1;8270000000.0;1
+2;LaLiga;Spain;ESP;1;5530000000.0;1
+3;Serie A;Italy;ITA;1;4700000000.0;2
+4;Bundesliga;Germany;DEU;1;4290000000.0;2
+5;Ligue 1;France;FRA;1;3330000000.0;2
+6;Liga NOS;Portugal;PRT;1;1060000000.0;3
+7;Eredivisie;Netherlands;NLD;1;1010000000.0;3
+8;Premier Liga;Russia;RUS;1;908080000.0;3
+9;Jupiler Pro League;Belgium;BEL;1;660530000.0;4
+10;Süper Lig;Turkey;TUR;1;639650000.0;4
+11;Super League;Greece;GRC;1;305680000.0;5
+12;Bundesliga;Austria;AUT;1;289600000.0;5
+13;Premier Liga;Ukraine;UKR;1;281550000.0;5
+14;Super League;Switzerland;CHE;1;281180000.0;5
+15;Scottish Premiership;Scotland;GBR;1;226150000.0;5
+16;Fortuna Liga;Czech Republic;CZE;1;214800000.0;5
+17;SuperLiga;Serbia;SRB;1;177530000.0;6
+18;Liga 1;Romania;ROU;1;176150000.0;6
+19;Ekstraklasa;Poland;POL;1;173350000.0;6
+20;Alka Superligaen;Denmark;DNK;1;172600000.0;6
+21;Allsvenskan;Sweden;SWE;1;146650000.0;6
+22;1.HNL;Croatia;HRV;1;143530000.0;6
+23;Parva Liga;Bulgaria;BGR;1;141000000.0;6
+24;Ligat ha'Al;Israel;ISR;1;131100000.0;6
+25;First Division;Cyprus;CYP;1;120330000.0;6
+26;Eliteserien;Norway;NOR;1;114750000.0;6
+27;Premier Liga;Kazakhstan;KAZ;1;113100000.0;6
+28;Nemzeti Bajnokság;Hungary;HUN;1;100200000.0;6
+29;Primera División;Argentina;ARG;1;832500000.0;4
+37;Campeonato Brasileiro Série A;Brazil;BRA;1;760800000.0;4
+38;Liga MX Clausura;Mexico;MEX;1;644280000.0;5
+39;Liga MX Apertura;Mexico;MEX;1;644280000.0;5
+40;Major League Soccer;United States;USA;1;501430000.0;5
+41;Liguilla Apertura;Mexico;MEX;1;378550000.0;5
+42;Liga Águila I;Colombia;COL;1;270250000.0;5
+43;LigaPro Serie A;Ecuador;ECU;1;160900000.0;6
+44;Campeonato Scotiabank Primera División;Chile;CHL;1;134340000.0;6
+45;Chinese Super League;China;CHN;1;474800000.0;5
+46;Saudi Professional League;Saudi Arabia;SAU;1;377190000.0;6
+47;J1 League;Japan;JPN;1;344200000.0;6
+48;K League 1;Korea, South;KOR;1;131930000.0;6
+49;Persian Gulf Pro League;Iran;IRN;1;124650000.0;6
+50;Qatar Stars League;Qatar;QAT;1;122480000.0;6
+51;UAE Arabian Gulf League;United Arab Emirates;ARE;1;122120000.0;6
+52;Egyptian Premier League;Egypt;EGY;1;159850000.0;6
+53;Botola Maroc Telecom ;Morocco;MAR;1;149050000.0;6
+54;ABSA Premiership;South Africa;ZAF;1;143580000.0;6
+55;Champions League;Europe;;0;;1
+56;Champions League Qualifying;Europe;;0;;2
+57;Europa League;Europe;;0;;2
+58;Europa League Qualifying;Europe;;0;;3
+59;Others;All;;0;;10

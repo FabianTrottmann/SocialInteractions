@@ -1,0 +1,254 @@
+id;name;off_name;sovereignty;alpha_2_code;alpha_3_code;numeric_code;iso_subdivision;nat_domain
+1;Afghanistan;The Islamic Republic of Afghanistan;UN member state;AF;AFG;4;ISO 3166-2:AF;.af
+2;Åland Islands;Åland;Finland;AX;ALA;248;ISO 3166-2:AX;.ax
+3;Albania;The Republic of Albania;UN member state;AL;ALB;8;ISO 3166-2:AL;.al
+4;Algeria;The People's Democratic Republic of Algeria;UN member state;DZ;DZA;12;ISO 3166-2:DZ;.dz
+5;American Samoa;The Territory of American Samoa;United States;AS;ASM;16;ISO 3166-2:AS;.as
+6;Andorra;The Principality of Andorra;UN member state;AD;AND;20;ISO 3166-2:AD;.ad
+7;Angola;The Republic of Angola;UN member state;AO;AGO;24;ISO 3166-2:AO;.ao
+8;Anguilla;Anguilla;United Kingdom;AI;AIA;660;ISO 3166-2:AI;.ai
+9;Antarctica [a];All land and ice shelves south of the 60th parallel south;Antarctic Treaty;AQ;ATA;10;ISO 3166-2:AQ;.aq
+10;Antigua and Barbuda;Antigua and Barbuda;UN member state;AG;ATG;28;ISO 3166-2:AG;.ag
+11;Argentina;The Argentine Republic;UN member state;AR;ARG;32;ISO 3166-2:AR;.ar
+12;Armenia;The Republic of Armenia;UN member state;AM;ARM;51;ISO 3166-2:AM;.am
+13;Aruba;Aruba;Netherlands;AW;ABW;533;ISO 3166-2:AW;.aw
+14;Australia [b];The Commonwealth of Australia;UN member state;AU;AUS;36;ISO 3166-2:AU;.au
+15;Austria;The Republic of Austria;UN member state;AT;AUT;40;ISO 3166-2:AT;.at
+16;Azerbaijan;The Republic of Azerbaijan;UN member state;AZ;AZE;31;ISO 3166-2:AZ;.az
+17;Bahamas (the);The Commonwealth of The Bahamas;UN member state;BS;BHS;44;ISO 3166-2:BS;.bs
+18;Bahrain;The Kingdom of Bahrain;UN member state;BH;BHR;48;ISO 3166-2:BH;.bh
+19;Bangladesh;The People's Republic of Bangladesh;UN member state;BD;BGD;50;ISO 3166-2:BD;.bd
+20;Barbados;Barbados;UN member state;BB;BRB;52;ISO 3166-2:BB;.bb
+21;Belarus;The Republic of Belarus;UN member state;BY;BLR;112;ISO 3166-2:BY;.by
+22;Belgium;The Kingdom of Belgium;UN member state;BE;BEL;56;ISO 3166-2:BE;.be
+23;Belize;Belize;UN member state;BZ;BLZ;84;ISO 3166-2:BZ;.bz
+24;Benin;The Republic of Benin;UN member state;BJ;BEN;204;ISO 3166-2:BJ;.bj
+25;Bermuda;Bermuda;United Kingdom;BM;BMU;60;ISO 3166-2:BM;.bm
+26;Bhutan;The Kingdom of Bhutan;UN member state;BT;BTN;64;ISO 3166-2:BT;.bt
+27;Bolivia (Plurinational State of);The Plurinational State of Bolivia;UN member state;BO;BOL;68;ISO 3166-2:BO;.bo
+28;Bosnia and Herzegovina;Bosnia and Herzegovina;UN member state;BA;BIH;70;ISO 3166-2:BA;.ba
+29;Botswana;The Republic of Botswana;UN member state;BW;BWA;72;ISO 3166-2:BW;.bw
+30;Bouvet Island;Bouvet Island;Norway;BV;BVT;74;ISO 3166-2:BV;[d]
+31;Brazil;The Federative Republic of Brazil;UN member state;BR;BRA;76;ISO 3166-2:BR;.br
+32;British Indian Ocean Territory (the);The British Indian Ocean Territory;United Kingdom;IO;IOT;86;ISO 3166-2:IO;.io
+33;Brunei Darussalam [e];The Nation of Brunei, the Abode of Peace;UN member state;BN;BRN;96;ISO 3166-2:BN;.bn
+34;Bulgaria;The Republic of Bulgaria;UN member state;BG;BGR;100;ISO 3166-2:BG;.bg
+35;Burkina Faso;Burkina Faso;UN member state;BF;BFA;854;ISO 3166-2:BF;.bf
+36;Burundi;The Republic of Burundi;UN member state;BI;BDI;108;ISO 3166-2:BI;.bi
+37;Cabo Verde [f];The Republic of Cabo Verde;UN member state;CV;CPV;132;ISO 3166-2:CV;.cv
+38;Cambodia;The Kingdom of Cambodia;UN member state;KH;KHM;116;ISO 3166-2:KH;.kh
+39;Cameroon;The Republic of Cameroon;UN member state;CM;CMR;120;ISO 3166-2:CM;.cm
+40;Canada;Canada;UN member state;CA;CAN;124;ISO 3166-2:CA;.ca
+41;Cayman Islands (the);The Cayman Islands;United Kingdom;KY;CYM;136;ISO 3166-2:KY;.ky
+42;Central African Republic (the);The Central African Republic;UN member state;CF;CAF;140;ISO 3166-2:CF;.cf
+43;Chad;The Republic of Chad;UN member state;TD;TCD;148;ISO 3166-2:TD;.td
+44;Chile;The Republic of Chile;UN member state;CL;CHL;152;ISO 3166-2:CL;.cl
+45;China;The People's Republic of China;UN member state;CN;CHN;156;ISO 3166-2:CN;.cn
+46;Christmas Island;The Territory of Christmas Island;Australia;CX;CXR;162;ISO 3166-2:CX;.cx
+47;Cocos (Keeling) Islands (the);The Territory of Cocos (Keeling) Islands;Australia;CC;CCK;166;ISO 3166-2:CC;.cc
+48;Colombia;The Republic of Colombia;UN member state;CO;COL;170;ISO 3166-2:CO;.co
+49;Comoros (the);The Union of the Comoros;UN member state;KM;COM;174;ISO 3166-2:KM;.km
+50;Congo (the Democratic Republic of the);The Democratic Republic of the Congo;UN member state;CD;COD;180;ISO 3166-2:CD;.cd
+51;Congo (the) [g];The Republic of the Congo;UN member state;CG;COG;178;ISO 3166-2:CG;.cg
+52;Cook Islands (the);The Cook Islands;New Zealand;CK;COK;184;ISO 3166-2:CK;.ck
+53;Costa Rica;The Republic of Costa Rica;UN member state;CR;CRI;188;ISO 3166-2:CR;.cr
+54;Côte d'Ivoire [h];The Republic of Côte d'Ivoire;UN member state;CI;CIV;384;ISO 3166-2:CI;.ci
+55;Croatia;The Republic of Croatia;UN member state;HR;HRV;191;ISO 3166-2:HR;.hr
+56;Cuba;The Republic of Cuba;UN member state;CU;CUB;192;ISO 3166-2:CU;.cu
+57;Curaçao;The Country of Curaçao;Netherlands;CW;CUW;531;ISO 3166-2:CW;.cw
+58;Cyprus;The Republic of Cyprus;UN member state;CY;CYP;196;ISO 3166-2:CY;.cy
+59;Czechia [i];The Czech Republic;UN member state;CZ;CZE;203;ISO 3166-2:CZ;.cz
+60;Denmark;The Kingdom of Denmark;UN member state;DK;DNK;208;ISO 3166-2:DK;.dk
+61;Djibouti;The Republic of Djibouti;UN member state;DJ;DJI;262;ISO 3166-2:DJ;.dj
+62;Dominica;The Commonwealth of Dominica;UN member state;DM;DMA;212;ISO 3166-2:DM;.dm
+63;Dominican Republic (the);The Dominican Republic;UN member state;DO;DOM;214;ISO 3166-2:DO;.do
+64;Ecuador;The Republic of Ecuador;UN member state;EC;ECU;218;ISO 3166-2:EC;.ec
+65;Egypt;The Arab Republic of Egypt;UN member state;EG;EGY;818;ISO 3166-2:EG;.eg
+66;El Salvador;The Republic of El Salvador;UN member state;SV;SLV;222;ISO 3166-2:SV;.sv
+67;Equatorial Guinea;The Republic of Equatorial Guinea;UN member state;GQ;GNQ;226;ISO 3166-2:GQ;.gq
+68;Eritrea;The State of Eritrea;UN member state;ER;ERI;232;ISO 3166-2:ER;.er
+69;Estonia;The Republic of Estonia;UN member state;EE;EST;233;ISO 3166-2:EE;.ee
+70;Eswatini [j];The Kingdom of Eswatini;UN member state;SZ;SWZ;748;ISO 3166-2:SZ;.sz
+71;Ethiopia;The Federal Democratic Republic of Ethiopia;UN member state;ET;ETH;231;ISO 3166-2:ET;.et
+72;Falkland Islands (the) [Malvinas] [k];The Falkland Islands;United Kingdom;FK;FLK;238;ISO 3166-2:FK;.fk
+73;Faroe Islands (the);The Faroe Islands;Denmark;FO;FRO;234;ISO 3166-2:FO;.fo
+74;Fiji;The Republic of Fiji;UN member state;FJ;FJI;242;ISO 3166-2:FJ;.fj
+75;Finland;The Republic of Finland;UN member state;FI;FIN;246;ISO 3166-2:FI;.fi
+76;France [l];The French Republic;UN member state;FR;FRA;250;ISO 3166-2:FR;.fr
+77;French Guiana;Guyane;France;GF;GUF;254;ISO 3166-2:GF;.gf
+78;French Polynesia;French Polynesia;France;PF;PYF;258;ISO 3166-2:PF;.pf
+79;French Southern Territories (the) [m];The French Southern and Antarctic Lands;France;TF;ATF;260;ISO 3166-2:TF;.tf
+80;Gabon;The Gabonese Republic;UN member state;GA;GAB;266;ISO 3166-2:GA;.ga
+81;Gambia (the);The Republic of The Gambia;UN member state;GM;GMB;270;ISO 3166-2:GM;.gm
+82;Georgia;Georgia;UN member state;GE;GEO;268;ISO 3166-2:GE;.ge
+83;Germany;The Federal Republic of Germany;UN member state;DE;DEU;276;ISO 3166-2:DE;.de
+84;Ghana;The Republic of Ghana;UN member state;GH;GHA;288;ISO 3166-2:GH;.gh
+85;Gibraltar;Gibraltar;United Kingdom;GI;GIB;292;ISO 3166-2:GI;.gi
+86;Greece;The Hellenic Republic;UN member state;GR;GRC;300;ISO 3166-2:GR;.gr
+87;Greenland;Kalaallit Nunaat;Denmark;GL;GRL;304;ISO 3166-2:GL;.gl
+88;Grenada;Grenada;UN member state;GD;GRD;308;ISO 3166-2:GD;.gd
+89;Guadeloupe;Guadeloupe;France;GP;GLP;312;ISO 3166-2:GP;.gp
+90;Guam;The Territory of Guam;United States;GU;GUM;316;ISO 3166-2:GU;.gu
+91;Guatemala;The Republic of Guatemala;UN member state;GT;GTM;320;ISO 3166-2:GT;.gt
+92;Guernsey;The Bailiwick of Guernsey;British Crown;GG;GGY;831;ISO 3166-2:GG;.gg
+93;Guinea;The Republic of Guinea;UN member state;GN;GIN;324;ISO 3166-2:GN;.gn
+94;Guinea-Bissau;The Republic of Guinea-Bissau;UN member state;GW;GNB;624;ISO 3166-2:GW;.gw
+95;Guyana;The Co-operative Republic of Guyana;UN member state;GY;GUY;328;ISO 3166-2:GY;.gy
+96;Haiti;The Republic of Haiti;UN member state;HT;HTI;332;ISO 3166-2:HT;.ht
+97;Heard Island and McDonald Islands;The Territory of Heard Island and McDonald Islands;Australia;HM;HMD;334;ISO 3166-2:HM;.hm
+98;Holy See (the) [n];The Holy See;UN observer;VA;VAT;336;ISO 3166-2:VA;.va
+99;Honduras;The Republic of Honduras;UN member state;HN;HND;340;ISO 3166-2:HN;.hn
+100;Hong Kong;The Hong Kong Special Administrative Region;China;HK;HKG;344;ISO 3166-2:HK;.hk
+101;Hungary;Hungary;UN member state;HU;HUN;348;ISO 3166-2:HU;.hu
+102;Iceland;Iceland;UN member state;IS;ISL;352;ISO 3166-2:IS;.is
+103;India;The Republic of India;UN member state;IN;IND;356;ISO 3166-2:IN;.in
+104;Indonesia;The Republic of Indonesia;UN member state;ID;IDN;360;ISO 3166-2:ID;.id
+105;Iran (Islamic Republic of);The Islamic Republic of Iran;UN member state;IR;IRN;364;ISO 3166-2:IR;.ir
+106;Iraq;The Republic of Iraq;UN member state;IQ;IRQ;368;ISO 3166-2:IQ;.iq
+107;Ireland;Ireland;UN member state;IE;IRL;372;ISO 3166-2:IE;.ie
+108;Isle of Man;The Isle of Man;British Crown;IM;IMN;833;ISO 3166-2:IM;.im
+109;Israel;The State of Israel;UN member state;IL;ISR;376;ISO 3166-2:IL;.il
+110;Italy;The Italian Republic;UN member state;IT;ITA;380;ISO 3166-2:IT;.it
+111;Jamaica;Jamaica;UN member state;JM;JAM;388;ISO 3166-2:JM;.jm
+112;Japan;Japan;UN member state;JP;JPN;392;ISO 3166-2:JP;.jp
+113;Jersey;The Bailiwick of Jersey;British Crown;JE;JEY;832;ISO 3166-2:JE;.je
+114;Jordan;The Hashemite Kingdom of Jordan;UN member state;JO;JOR;400;ISO 3166-2:JO;.jo
+115;Kazakhstan;The Republic of Kazakhstan;UN member state;KZ;KAZ;398;ISO 3166-2:KZ;.kz
+116;Kenya;The Republic of Kenya;UN member state;KE;KEN;404;ISO 3166-2:KE;.ke
+117;Kiribati;The Republic of Kiribati;UN member state;KI;KIR;296;ISO 3166-2:KI;.ki
+118;Korea (the Democratic People's Republic of) [o];The Democratic People's Republic of Korea;UN member state;KP;PRK;408;ISO 3166-2:KP;.kp
+119;Korea, South;The Republic of Korea;UN member state;KR;KOR;410;ISO 3166-2:KR;.kr
+120;Kuwait;The State of Kuwait;UN member state;KW;KWT;414;ISO 3166-2:KW;.kw
+121;Kyrgyzstan;The Kyrgyz Republic;UN member state;KG;KGZ;417;ISO 3166-2:KG;.kg
+122;Lao People's Democratic Republic (the) [q];The Lao People's Democratic Republic;UN member state;LA;LAO;418;ISO 3166-2:LA;.la
+123;Latvia;The Republic of Latvia;UN member state;LV;LVA;428;ISO 3166-2:LV;.lv
+124;Lebanon;The Lebanese Republic;UN member state;LB;LBN;422;ISO 3166-2:LB;.lb
+125;Lesotho;The Kingdom of Lesotho;UN member state;LS;LSO;426;ISO 3166-2:LS;.ls
+126;Liberia;The Republic of Liberia;UN member state;LR;LBR;430;ISO 3166-2:LR;.lr
+127;Libya;The State of Libya;UN member state;LY;LBY;434;ISO 3166-2:LY;.ly
+128;Liechtenstein;The Principality of Liechtenstein;UN member state;LI;LIE;438;ISO 3166-2:LI;.li
+129;Lithuania;The Republic of Lithuania;UN member state;LT;LTU;440;ISO 3166-2:LT;.lt
+130;Luxembourg;The Grand Duchy of Luxembourg;UN member state;LU;LUX;442;ISO 3166-2:LU;.lu
+131;Macao [r];The Macau Special Administrative Region;China;MO;MAC;446;ISO 3166-2:MO;.mo
+132;Macedonia (the former Yugoslav Republic of) [s];The Republic of Macedonia;UN member state;MK;MKD;807;ISO 3166-2:MK;.mk
+133;Madagascar;The Republic of Madagascar;UN member state;MG;MDG;450;ISO 3166-2:MG;.mg
+134;Malawi;The Republic of Malawi;UN member state;MW;MWI;454;ISO 3166-2:MW;.mw
+135;Malaysia;Malaysia;UN member state;MY;MYS;458;ISO 3166-2:MY;.my
+136;Maldives;The Republic of Maldives;UN member state;MV;MDV;462;ISO 3166-2:MV;.mv
+137;Mali;The Republic of Mali;UN member state;ML;MLI;466;ISO 3166-2:ML;.ml
+138;Malta;The Republic of Malta;UN member state;MT;MLT;470;ISO 3166-2:MT;.mt
+139;Marshall Islands (the);The Republic of the Marshall Islands;UN member state;MH;MHL;584;ISO 3166-2:MH;.mh
+140;Martinique;Martinique;France;MQ;MTQ;474;ISO 3166-2:MQ;.mq
+141;Mauritania;The Islamic Republic of Mauritania;UN member state;MR;MRT;478;ISO 3166-2:MR;.mr
+142;Mauritius;The Republic of Mauritius;UN member state;MU;MUS;480;ISO 3166-2:MU;.mu
+143;Mayotte;The Department of Mayotte;France;YT;MYT;175;ISO 3166-2:YT;.yt
+144;Mexico;The United Mexican States;UN member state;MX;MEX;484;ISO 3166-2:MX;.mx
+145;Micronesia (Federated States of);The Federated States of Micronesia;UN member state;FM;FSM;583;ISO 3166-2:FM;.fm
+146;Moldova (the Republic of);The Republic of Moldova;UN member state;MD;MDA;498;ISO 3166-2:MD;.md
+147;Monaco;The Principality of Monaco;UN member state;MC;MCO;492;ISO 3166-2:MC;.mc
+148;Mongolia;The State of Mongolia;UN member state;MN;MNG;496;ISO 3166-2:MN;.mn
+149;Montenegro;Montenegro;UN member state;ME;MNE;499;ISO 3166-2:ME;.me
+150;Montserrat;Montserrat;United Kingdom;MS;MSR;500;ISO 3166-2:MS;.ms
+151;Morocco;The Kingdom of Morocco;UN member state;MA;MAR;504;ISO 3166-2:MA;.ma
+152;Mozambique;The Republic of Mozambique;UN member state;MZ;MOZ;508;ISO 3166-2:MZ;.mz
+153;Myanmar [t];The Republic of the Union of Myanmar;UN member state;MM;MMR;104;ISO 3166-2:MM;.mm
+154;Namibia;The Republic of Namibia;UN member state;NA;NAM;516;ISO 3166-2:NA;.na
+155;Nauru;The Republic of Nauru;UN member state;NR;NRU;520;ISO 3166-2:NR;.nr
+156;Nepal;The Federal Democratic Republic of Nepal;UN member state;NP;NPL;524;ISO 3166-2:NP;.np
+157;Netherlands (the);The Kingdom of the Netherlands;UN member state;NL;NLD;528;ISO 3166-2:NL;.nl
+158;New Caledonia;New Caledonia;France;NC;NCL;540;ISO 3166-2:NC;.nc
+159;New Zealand;New Zealand;UN member state;NZ;NZL;554;ISO 3166-2:NZ;.nz
+160;Nicaragua;The Republic of Nicaragua;UN member state;NI;NIC;558;ISO 3166-2:NI;.ni
+161;Niger (the);The Republic of the Niger;UN member state;NE;NER;562;ISO 3166-2:NE;.ne
+162;Nigeria;The Federal Republic of Nigeria;UN member state;NG;NGA;566;ISO 3166-2:NG;.ng
+163;Niue;Niue;New Zealand;NU;NIU;570;ISO 3166-2:NU;.nu
+164;Norfolk Island;The Territory of Norfolk Island;Australia;NF;NFK;574;ISO 3166-2:NF;.nf
+165;Northern Mariana Islands (the);The Commonwealth of the Northern Mariana Islands;United States;MP;MNP;580;ISO 3166-2:MP;.mp
+166;Norway;The Kingdom of Norway;UN member state;NO;NOR;578;ISO 3166-2:NO;.no
+167;Oman;The Sultanate of Oman;UN member state;OM;OMN;512;ISO 3166-2:OM;.om
+168;Pakistan;The Islamic Republic of Pakistan;UN member state;PK;PAK;586;ISO 3166-2:PK;.pk
+169;Palau;The Republic of Palau;UN member state;PW;PLW;585;ISO 3166-2:PW;.pw
+170;Palestine, State of;The State of Palestine;UN observer;PS;PSE;275;ISO 3166-2:PS;.ps
+171;Panama;The Republic of Panamá;UN member state;PA;PAN;591;ISO 3166-2:PA;.pa
+172;Papua New Guinea;The Independent State of Papua New Guinea;UN member state;PG;PNG;598;ISO 3166-2:PG;.pg
+173;Paraguay;The Republic of Paraguay;UN member state;PY;PRY;600;ISO 3166-2:PY;.py
+174;Peru;The Republic of Perú;UN member state;PE;PER;604;ISO 3166-2:PE;.pe
+175;Philippines (the);The Republic of the Philippines;UN member state;PH;PHL;608;ISO 3166-2:PH;.ph
+176;Pitcairn [u];The Pitcairn, Henderson, Ducie and Oeno Islands;United Kingdom;PN;PCN;612;ISO 3166-2:PN;.pn
+177;Poland;The Republic of Poland;UN member state;PL;POL;616;ISO 3166-2:PL;.pl
+178;Portugal;The Portuguese Republic;UN member state;PT;PRT;620;ISO 3166-2:PT;.pt
+179;Puerto Rico;The Commonwealth of Puerto Rico;United States;PR;PRI;630;ISO 3166-2:PR;.pr
+180;Qatar;The State of Qatar;UN member state;QA;QAT;634;ISO 3166-2:QA;.qa
+181;Réunion;Réunion;France;RE;REU;638;ISO 3166-2:RE;.re
+182;Romania;Romania;UN member state;RO;ROU;642;ISO 3166-2:RO;.ro
+183;Russian Federation (the) [v];The Russian Federation;UN member state;RU;RUS;643;ISO 3166-2:RU;.ru
+184;Rwanda;The Republic of Rwanda;UN member state;RW;RWA;646;ISO 3166-2:RW;.rw
+185;Saint Barthélemy;The Collectivity of Saint-Barthélemy;France;BL;BLM;652;ISO 3166-2:BL;.bl
+186;Saint Helena, Ascension and Tristan da Cunha;Saint Helena, Ascension and Tristan da Cunha;United Kingdom;SH;SHN;654;ISO 3166-2:SH;.sh
+187;Saint Kitts and Nevis;Saint Kitts and Nevis;UN member state;KN;KNA;659;ISO 3166-2:KN;.kn
+188;Saint Lucia;Saint Lucia;UN member state;LC;LCA;662;ISO 3166-2:LC;.lc
+189;Saint Martin (French part);The Collectivity of Saint-Martin;France;MF;MAF;663;ISO 3166-2:MF;.mf
+190;Saint Pierre and Miquelon;The Overseas Collectivity of Saint-Pierre and Miquelon;France;PM;SPM;666;ISO 3166-2:PM;.pm
+191;Saint Vincent and the Grenadines;Saint Vincent and the Grenadines;UN member state;VC;VCT;670;ISO 3166-2:VC;.vc
+192;Samoa;The Independent State of Samoa;UN member state;WS;WSM;882;ISO 3166-2:WS;.ws
+193;San Marino;The Republic of San Marino;UN member state;SM;SMR;674;ISO 3166-2:SM;.sm
+194;Sao Tome and Principe;The Democratic Republic of São Tomé and Príncipe;UN member state;ST;STP;678;ISO 3166-2:ST;.st
+195;Saudi Arabia;The Kingdom of Saudi Arabia;UN member state;SA;SAU;682;ISO 3166-2:SA;.sa
+196;Senegal;The Republic of Senegal;UN member state;SN;SEN;686;ISO 3166-2:SN;.sn
+197;Serbia;The Republic of Serbia;UN member state;RS;SRB;688;ISO 3166-2:RS;.rs
+198;Seychelles;The Republic of Seychelles;UN member state;SC;SYC;690;ISO 3166-2:SC;.sc
+199;Sierra Leone;The Republic of Sierra Leone;UN member state;SL;SLE;694;ISO 3166-2:SL;.sl
+200;Singapore;The Republic of Singapore;UN member state;SG;SGP;702;ISO 3166-2:SG;.sg
+201;Sint Maarten (Dutch part);Sint Maarten;Netherlands;SX;SXM;534;ISO 3166-2:SX;.sx
+202;Slovakia;The Slovak Republic;UN member state;SK;SVK;703;ISO 3166-2:SK;.sk
+203;Slovenia;The Republic of Slovenia;UN member state;SI;SVN;705;ISO 3166-2:SI;.si
+204;Solomon Islands;The Solomon Islands;UN member state;SB;SLB;90;ISO 3166-2:SB;.sb
+205;Somalia;The Federal Republic of Somalia;UN member state;SO;SOM;706;ISO 3166-2:SO;.so
+206;South Africa;The Republic of South Africa;UN member state;ZA;ZAF;710;ISO 3166-2:ZA;.za
+207;South Georgia and the South Sandwich Islands;South Georgia and the South Sandwich Islands;United Kingdom;GS;SGS;239;ISO 3166-2:GS;.gs
+208;South Sudan;The Republic of South Sudan;UN member state;SS;SSD;728;ISO 3166-2:SS;.ss
+209;Spain;The Kingdom of Spain;UN member state;ES;ESP;724;ISO 3166-2:ES;.es
+210;Sri Lanka;The Democratic Socialist Republic of Sri Lanka;UN member state;LK;LKA;144;ISO 3166-2:LK;.lk
+211;Sudan (the);The Republic of the Sudan;UN member state;SD;SDN;729;ISO 3166-2:SD;.sd
+212;Suriname;The Republic of Suriname;UN member state;SR;SUR;740;ISO 3166-2:SR;.sr
+213;"Svalbard
+ Jan Mayen";Svalbard and Jan Mayen;Norway;SJ;SJM;744;ISO 3166-2:SJ;[w]
+214;Sweden;The Kingdom of Sweden;UN member state;SE;SWE;752;ISO 3166-2:SE;.se
+215;Switzerland;The Swiss Confederation;UN member state;CH;CHE;756;ISO 3166-2:CH;.ch
+216;Syrian Arab Republic [x];The Syrian Arab Republic;UN member state;SY;SYR;760;ISO 3166-2:SY;.sy
+217;Taiwan (Province of China) [y];The Republic of China;disputed [z];TW;TWN;158;ISO 3166-2:TW;.tw
+218;Tajikistan;The Republic of Tajikistan;UN member state;TJ;TJK;762;ISO 3166-2:TJ;.tj
+219;Tanzania, United Republic of;The United Republic of Tanzania;UN member state;TZ;TZA;834;ISO 3166-2:TZ;.tz
+220;Thailand;The Kingdom of Thailand;UN member state;TH;THA;764;ISO 3166-2:TH;.th
+221;Timor-Leste [aa];The Democratic Republic of Timor-Leste;UN member state;TL;TLS;626;ISO 3166-2:TL;.tl
+222;Togo;The Togolese Republic;UN member state;TG;TGO;768;ISO 3166-2:TG;.tg
+223;Tokelau;Tokelau;New Zealand;TK;TKL;772;ISO 3166-2:TK;.tk
+224;Tonga;The Kingdom of Tonga;UN member state;TO;TON;776;ISO 3166-2:TO;.to
+225;Trinidad and Tobago;The Republic of Trinidad and Tobago;UN member state;TT;TTO;780;ISO 3166-2:TT;.tt
+226;Tunisia;The Republic of Tunisia;UN member state;TN;TUN;788;ISO 3166-2:TN;.tn
+227;Turkey;The Republic of Turkey;UN member state;TR;TUR;792;ISO 3166-2:TR;.tr
+228;Turkmenistan;Turkmenistan;UN member state;TM;TKM;795;ISO 3166-2:TM;.tm
+229;Turks and Caicos Islands (the);The Turks and Caicos Islands;United Kingdom;TC;TCA;796;ISO 3166-2:TC;.tc
+230;Tuvalu;Tuvalu;UN member state;TV;TUV;798;ISO 3166-2:TV;.tv
+231;Uganda;The Republic of Uganda;UN member state;UG;UGA;800;ISO 3166-2:UG;.ug
+232;Ukraine;Ukraine;UN member state;UA;UKR;804;ISO 3166-2:UA;.ua
+233;United Arab Emirates (the);The United Arab Emirates;UN member state;AE;ARE;784;ISO 3166-2:AE;.ae
+234;United Kingdom of Great Britain and Northern Ireland (the);The United Kingdom of Great Britain and Northern Ireland;UN member state;GB;GBR;826;ISO 3166-2:GB;.gb .uk [ab]
+235;United States Minor Outlying Islands (the) [ac];Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island;United States;UM;UMI;581;ISO 3166-2:UM;[ad]
+236;United States of America (the);United States;UN member state;US;USA;840;ISO 3166-2:US;.us
+237;Uruguay;The Oriental Republic of Uruguay;UN member state;UY;URY;858;ISO 3166-2:UY;.uy
+238;Uzbekistan;The Republic of Uzbekistan;UN member state;UZ;UZB;860;ISO 3166-2:UZ;.uz
+239;Vanuatu;The Republic of Vanuatu;UN member state;VU;VUT;548;ISO 3166-2:VU;.vu
+240;Venezuela (Bolivarian Republic of);The Bolivarian Republic of Venezuela;UN member state;VE;VEN;862;ISO 3166-2:VE;.ve
+241;Viet Nam [ae];The Socialist Republic of Viet Nam;UN member state;VN;VNM;704;ISO 3166-2:VN;.vn
+242;Virgin Islands (British) [af];The Virgin Islands;United Kingdom;VG;VGB;92;ISO 3166-2:VG;.vg
+243;Virgin Islands (U.S.) [ag];The Virgin Islands of the United States;United States;VI;VIR;850;ISO 3166-2:VI;.vi
+244;Wallis and Futuna;The Territory of the Wallis and Futuna Islands;France;WF;WLF;876;ISO 3166-2:WF;.wf
+245;Western Sahara [ah];The Sahrawi Arab Democratic Republic;disputed [ai];EH;ESH;732;ISO 3166-2:EH;[aj]
+246;Yemen;The Republic of Yemen;UN member state;YE;YEM;887;ISO 3166-2:YE;.ye
+247;Zambia;The Republic of Zambia;UN member state;ZM;ZMB;894;ISO 3166-2:ZM;.zm
+248;Zimbabwe;The Republic of Zimbabwe;UN member state;ZW;ZWE;716;ISO 3166-2:ZW;.zw
+249;Scotland;Scotland;United Kingdom;GB;GBR;826;ISO 3166-2:GB;.gb .uk [ab]
+250;Wales;Wales;United Kingdom;GB;GBR;826;ISO 3166-2:GB;.gb .uk [ab]
+251;Northern Ireland;Northern Ireland;United Kingdom;GB;GBR;826;ISO 3166-2:GB;.gb .uk [ab]
+252;England;England;United Kingdom;GB;GBR;826;ISO 3166-2:GB;.gb .uk [ab]
