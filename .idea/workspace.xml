@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65b88ad-3c54-49b2-895d-bb3b4c0cb545" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataPreparer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetworkDrawer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/transfers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/transfers.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +50,78 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.Program">
+    <configuration name="DataPreparer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SocialInteractions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataPreparer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SocialInteractions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Program" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SocialInteractions" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Program" />
+        <item itemvalue="Python.DataPreparer" />
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,10 +140,47 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataPreparer.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="df" language="Python" />
+        <watch expression="type(df)" language="Python" />
+        <watch expression="df.columns" language="Python" />
+        <watch expression="df[&quot;season&quot;]" language="Python" />
+        <watch expression="df[&quot;from_club_name&quot;]" language="Python" />
+        <watch expression="df[&quot;from_club_name&quot;]" language="Python" />
+        <watch expression="degree" language="Python" />
+        <watch expression="x" language="Python" />
+        <watch expression="feeIncomeSumByClub" language="Python" />
+        <watch expression="feeIncomeSumByClub.colums" language="Python" />
+        <watch expression="type(feeIncomeSumByClub)" language="Python" />
+        <watch expression="feeIncomeSumByClub.columns[1]" language="Python" />
+        <watch expression="type(feeIncomeSumByClub[&quot;fee&quot;])" language="Python" />
+        <watch expression="feeIncomeSumByClub.unstack()" language="Python" />
+        <watch expression="df.groupby([&quot;from_club_name&quot;]).agg({&quot;fee&quot;: &quot;sum&quot;})[&quot;fee&quot;].rename({&quot;foo&quot;: &quot;bar&quot;}, axis=1)" language="Python" />
+        <watch expression="feeIncomeSumByClub[&quot;fee&quot;]" language="Python" />
+        <watch expression="feeIncomeSumByClub[&quot;fee&quot;]" language="Python" />
+        <watch expression="feeIncomeSumByClub[&quot;fee&quot;]" language="Python" />
+        <watch expression="clubRelations.nodes()._nodes" language="Python" />
+        <watch expression="df[df[&quot;season&quot;] &gt;= int(seasonFrom) and df[&quot;season&quot;] &lt;= int(seasonTo)]" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
