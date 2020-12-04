@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65b88ad-3c54-49b2-895d-bb3b4c0cb545" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataPreparer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NetworkDrawer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComparisonOption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/transfers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/transfers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataPreparer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataPreparer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkDrawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkDrawer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,37 +148,14 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/DataPreparer.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="df" language="Python" />
-        <watch expression="type(df)" language="Python" />
-        <watch expression="df.columns" language="Python" />
-        <watch expression="df[&quot;season&quot;]" language="Python" />
+        <watch expression="df.loc[df['to_club_name'] == &quot;FC Basel&quot;]" language="Python" />
+        <watch expression="df.loc[df['from_club_name'] == &quot;FC Basel&quot;]" language="Python" />
         <watch expression="df[&quot;from_club_name&quot;]" language="Python" />
-        <watch expression="df[&quot;from_club_name&quot;]" language="Python" />
-        <watch expression="degree" language="Python" />
-        <watch expression="x" language="Python" />
-        <watch expression="feeIncomeSumByClub" language="Python" />
-        <watch expression="feeIncomeSumByClub.colums" language="Python" />
-        <watch expression="type(feeIncomeSumByClub)" language="Python" />
-        <watch expression="feeIncomeSumByClub.columns[1]" language="Python" />
-        <watch expression="type(feeIncomeSumByClub[&quot;fee&quot;])" language="Python" />
-        <watch expression="feeIncomeSumByClub.unstack()" language="Python" />
-        <watch expression="df.groupby([&quot;from_club_name&quot;]).agg({&quot;fee&quot;: &quot;sum&quot;})[&quot;fee&quot;].rename({&quot;foo&quot;: &quot;bar&quot;}, axis=1)" language="Python" />
-        <watch expression="feeIncomeSumByClub[&quot;fee&quot;]" language="Python" />
-        <watch expression="feeIncomeSumByClub[&quot;fee&quot;]" language="Python" />
-        <watch expression="feeIncomeSumByClub[&quot;fee&quot;]" language="Python" />
-        <watch expression="clubRelations.nodes()._nodes" language="Python" />
-        <watch expression="df[df[&quot;season&quot;] &gt;= int(seasonFrom) and df[&quot;season&quot;] &lt;= int(seasonTo)]" language="Python" />
+        <watch expression="clubsFrom" language="Python" />
+        <watch expression="len(df[df[&quot;to_club_name&quot;].isin(clubFilter)])" language="Python" />
+        <watch expression="len(df)" language="Python" />
       </configuration>
     </watches-manager>
   </component>

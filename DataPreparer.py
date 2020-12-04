@@ -3,9 +3,11 @@ import pandas as pd
 
 class DataPreparer:
 
-    def GetClubFromClubToPair(self, fee=1000000, season=None, clubsFrom=None):
+    def GetClubToClubTransferRatio(self, fee, season, clubFilter):
+        print("preparing transfer ratio")
         df = self.__cleanLoadTransfers()
-        df = self.__filter(df, fee, season, clubsFrom)
+        df = self.__filterSeasons(df, fee, season)
+        df = df[df["to_club_name"].isin(clubFilter) | (df["from_club_name"].isin(clubFilter))]
         feeIncomeSumByClub = df.groupby(["from_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
         feeExpenseSumByClub = df.groupby(["to_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
 
@@ -19,22 +21,37 @@ class DataPreparer:
             feeRatioByClub[clubName] = ratio
 
         df = df[["from_club_name", "to_club_name"]]
-
-        print("clubs -> clubs. shape of dataframe: ", df.shape)
         return df, feeRatioByClub
 
-    def GetClubFromNationsToPair(self, fee=1000000, season=None, clubsFrom=None):
+    def GetClubToClubTransferExpense(self, fee, season, clubFilter):
+        print("preparing transfer expenses")
         df = self.__cleanLoadTransfers()
-        df = self.__filter(df, fee, season, clubsFrom)
+        df = self.__filterSeasons(df, fee, season)
+        df = df[df["to_club_name"].isin(clubFilter)]
+        transferExpenseByClub = df.groupby(["to_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
+        df = df[["from_club_name", "to_club_name"]]
+        return df, transferExpenseByClub
+
+    def GetClubToClubTransferIncome(self, fee, season, clubFilter):
+        print("preparing transfer income")
+        df = self.__cleanLoadTransfers()
+        df = self.__filter(df, fee, season)
+        df = df[df["from_club_name"].isin(clubFilter)]
+        transferIncomeByClub = df.groupby(["from_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
+        df = df[["from_club_name", "to_club_name"]]
+        return df, transferIncomeByClub
+
+    def GetClubFromNationsToPair(self, fee=1000000, season=None, clubFilter=None):
+        df = self.__cleanLoadTransfers()
+        df = self.__filter(df, fee, season, clubFilter)
         nationByPlayers = self.__loadPlayersNationality()
         df = df[["from_club_name", "to_club_name", "player_name"]]
         df["nationality"] = df["player_name"].apply(lambda x: nationByPlayers[x])
         df = df[["from_club_name", "nationality"]]
 
-        print("clubs -> nations. shape of dataframe: ", df.shape)
         return df
 
-    def __filter(self, df, fee, season, clubsFrom):
+    def __filterSeasons(self, df, fee, season):
         df = df[df["fee"].notna()]
         df = df.drop(df[df["fee"] < fee].index)
 
@@ -44,10 +61,9 @@ class DataPreparer:
             df = df[df["season"] >= int(seasonFrom)]
             df = df[df["season"] <= int(seasonTo)]
             print("filters season -> df shape: ", df.shape)
-            print(df["season"])
-        if clubsFrom != None and len(clubsFrom) > 0:
-            df = df[df["from_club_name"].isin(clubsFrom)]
-            print("filters from_clubs_name. df shape: ", df.shape)
+
+        print("shape of dataframe: ", df.shape)
+
         return df
 
     def __cleanLoadTransfers(self):
