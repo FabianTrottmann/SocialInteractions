@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65b88ad-3c54-49b2-895d-bb3b4c0cb545" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ComparisonOption.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataPreparer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataPreparer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkDrawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkDrawer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
     </list>
@@ -148,6 +146,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/NetworkDrawer.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="df.loc[df['to_club_name'] == &quot;FC Basel&quot;]" language="Python" />

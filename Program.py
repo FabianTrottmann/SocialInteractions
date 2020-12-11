@@ -15,7 +15,7 @@ preparer = DataPreparer()
 clubToCompare = "FC Basel"
 season = "2013-2020"
 minFee = 0
-comparisonOption = ComparisonOption.TransferExpense
+comparisonOption = ComparisonOption.TransferRatio
 # ----------------------
 
 clubToCompare = clubToCompare.split(";")

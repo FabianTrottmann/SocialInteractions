@@ -1,5 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+import pathpy as pp
+from pathpy.classes.network import network_from_networkx
 
 class NetworkDrawer:
     def Draw(self, df, clubToCompare, transferByClub):
@@ -24,4 +26,5 @@ class NetworkDrawer:
         # nx.draw(self.__clubRelations, with_labels=True, pos=coords, node_size=sizes)
         # coords = nx.spring_layout(self.__clubRelations)
         nx.draw(clubRelations, node_color=nodeColor, with_labels=True, pos=coords, node_size=sizes)
+        nx.write_gexf(clubRelations, "test.gexf")
         plt.show()
