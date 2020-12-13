@@ -1,0 +1,321 @@
+;from_club_name;to_club_name;thickness
+99031;Ligue 1-Expenses;SC Amiens;6
+99088;Olympique Lyon;Ligue 1-Income;14
+99089;Olympique Lyon;Ligue 1-Income;14
+99095;Paris SG;Ligue 1-Income;9
+99130;Ligue 1-Expenses;Paris SG;5
+99145;Paris SG;Ligue 1-Income;9
+99156;Ligue 1-Expenses;Monaco;13
+99160;G. Bordeaux;Ligue 1-Income;7
+99165;Olympique Lyon;Ligue 1-Income;14
+99187;Ligue 1-Expenses;Olympique Lyon;9
+99192;Ligue 1-Expenses;Marseille;11
+99216;Ligue 1-Expenses;Monaco;13
+99217;LOSC Lille;Ligue 1-Income;8
+99228;Ligue 1-Expenses;Monaco;13
+99233;Ligue 1-Expenses;Marseille;11
+99258;Ligue 1-Expenses;Marseille;11
+99287;Ligue 1-Expenses;Marseille;11
+99301;SC Amiens;Olympique Lyon;2
+99311;Monaco;Ligue 1-Income;17
+99326;Ligue 1-Expenses;Monaco;13
+99334;Olympique Lyon;Ligue 1-Income;14
+99335;Saint-Ãtienne;LOSC Lille;1
+99357;AC Le Havre;Olympique Lyon;1
+99363;Paris SG;Ligue 1-Income;9
+99391;Monaco;Ligue 1-Income;17
+99405;SCO Angers;LOSC Lille;1
+99422;Monaco;Ligue 1-Income;17
+99425;Olympique Lyon;Ligue 1-Income;14
+99426;Lens;Stade Rennais;1
+99441;OGC Nice;Ligue 1-Income;7
+99452;Ligue 1-Expenses;Monaco;13
+99464;Olympique Lyon;Ligue 1-Income;14
+99497;Paris SG;Ligue 1-Income;9
+99511;Olympique Lyon;Ligue 1-Income;14
+99543;Marseille;Ligue 1-Income;4
+99552;Ligue 1-Expenses;Olympique Lyon;9
+99587;Monaco;Ligue 1-Income;17
+99615;Monaco;OGC Nice;1
+99623;Ligue 1-Expenses;Marseille;11
+99633;OGC Nice;Ligue 1-Income;7
+99638;FC Nantes;Ligue 1-Income;5
+99641;Ligue 1-Expenses;LOSC Lille;9
+99644;FC Metz;Stade Rennais;1
+99652;Monaco;Ligue 1-Income;17
+99664;Ligue 1-Expenses;Paris SG;5
+99687;Ligue 1-Expenses;Marseille;11
+99740;Stade Rennais;Montpellier;2
+99791;Monaco;Marseille;1
+99792;Ligue 1-Expenses;Marseille;11
+99799;Toulouse;Ligue 1-Income;8
+99841;Ligue 1-Expenses;FC Metz;6
+99863;Stade Rennais;Monaco;1
+99931;Stade Rennais;Dijon;1
+99940;G. Bordeaux;Ligue 1-Income;7
+99966;Dijon;OGC Nice;1
+99991;LOSC Lille;G. Bordeaux;1
+99992;Ligue 1-Expenses;LOSC Lille;9
+100033;Ligue 1-Expenses;Olympique Lyon;9
+100051;G. Bordeaux;Ligue 1-Income;7
+100065;Stade Rennais;Montpellier;2
+100084;Ligue 1-Expenses;FC Nantes;8
+100089;AS Nancy;Stade Rennais;1
+100128;Marseille;Ligue 1-Income;4
+100133;Montpellier;Ligue 1-Income;6
+100189;Ligue 1-Expenses;Saint-Ãtienne;4
+100215;Ligue 1-Expenses;Stade Rennais;3
+100239;Ligue 1-Expenses;SC Amiens;6
+100242;Ligue 1-Expenses;Olympique Lyon;9
+100250;Montpellier;Ligue 1-Income;6
+100253;Ligue 1-Expenses;LOSC Lille;9
+100265;OGC Nice;Ligue 1-Income;7
+100314;Ligue 1-Expenses;Olympique Lyon;9
+100327;Saint-Ãtienne;FC Lorient;1
+100348;FC Nantes;Ligue 1-Income;5
+100349;LOSC Lille;Ligue 1-Income;8
+100424;Paris SG;G. Bordeaux;2
+100433;Monaco;Ligue 1-Income;17
+100442;Olympique Lyon;Ligue 1-Income;14
+100473;FC Nantes;Ligue 1-Income;5
+100480;G. Bordeaux;FC Nantes;1
+100509;Stade Rennais;Ligue 1-Income;4
+100510;Ligue 1-Expenses;G. Bordeaux;7
+100636;FC Metz;Ligue 1-Income;6
+100652;G. Bordeaux;SCO Angers;2
+100754;Ligue 1-Expenses;Guingamp;2
+100775;G. Bordeaux;SM Caen;1
+100847;AC Le Havre;Stade Rennais;1
+100848;Ligue 1-Expenses;Monaco;13
+100861;FC Lorient;Ligue 1-Income;5
+100866;Ligue 1-Expenses;SC Amiens;6
+100912;G. Bordeaux;Dijon;1
+101012;FC Lorient;Montpellier;1
+101013;Ligue 1-Expenses;LOSC Lille;9
+101042;Ligue 1-Expenses;FC Nantes;8
+101043;Ligue 1-Expenses;Olympique Lyon;9
+101078;SM Caen;OGC Nice;1
+101087;FC Lorient;Ligue 1-Income;5
+101106;Ligue 1-Expenses;G. Bordeaux;7
+101128;Ligue 1-Expenses;Saint-Ãtienne;4
+101135;LOSC Lille;SCO Angers;1
+101146;Valenciennes FC;SCO Angers;1
+101176;Ligue 1-Expenses;R. Strasbourg;7
+101206;Ligue 1-Expenses;NÃ®mes Olympique;1
+101227;SC Bastia;SM Caen;1
+101260;Saint-Ãtienne;Ligue 1-Income;5
+101332;G. Ajaccio;Ligue 1-Income;1
+101364;Dijon;Saint-Ãtienne;1
+101418;FC Sochaux;Guingamp;1
+101495;SC Amiens;Ligue 1-Income;1
+101498;Ligue 1-Expenses;G. Bordeaux;7
+101521;Valenciennes FC;OGC Nice;1
+101662;LOSC Lille;Olympique Lyon;1
+101675;Ligue 1-Expenses;LOSC Lille;9
+101705;G. Bordeaux;Ligue 1-Income;7
+101728;Ligue 1-Expenses;Monaco;13
+101793;Monaco;Toulouse;1
+101835;FC Lorient;Dijon;1
+101889;Ligue 1-Expenses;Stade Rennais;3
+101897;Ligue 1-Expenses;LOSC Lille;9
+101900;Ligue 1-Expenses;G. Bordeaux;7
+101916;Ligue 1-Expenses;G. Bordeaux;7
+101950;Ligue 1-Expenses;LOSC Lille;9
+101969;Reims;Stade Rennais;2
+102098;Ligue 1-Expenses;R. Strasbourg;7
+102216;Guingamp;Ligue 1-Income;1
+102238;FC Lorient;AJ Auxerre;1
+102275;Reims;Ligue 1-Income;2
+102291;Toulouse;Ligue 1-Income;8
+102292;Saint-Ãtienne;Ligue 1-Income;5
+102351;Toulouse;Ligue 1-Income;8
+102374;Saint-Ãtienne;Ligue 1-Income;5
+102443;AC Ajaccio;Lens;2
+102465;FC Metz;Ligue 1-Income;6
+102774;Lens;Ligue 1-Income;4
+102807;Ligue 1-Expenses;SC Amiens;6
+102864;Ligue 1-Expenses;FC Nantes;8
+102886;Stade Rennais;Ligue 1-Income;4
+102945;Ligue 1-Expenses;SM Caen;4
+103027;R. Strasbourg;OGC Nice;1
+103107;Ligue 1-Expenses;R. Strasbourg;7
+103110;Ligue 1-Expenses;OGC Nice;3
+103112;Toulouse;Ligue 1-Income;8
+103203;Guingamp;G. Bordeaux;1
+103416;Ligue 1-Expenses;AJ Auxerre;3
+103419;SC Bastia;Ligue 1-Income;1
+103602;G. Bordeaux;SCO Angers;2
+104007;Lens;Ligue 1-Income;4
+104222;Ligue 1-Expenses;AJ Auxerre;3
+104316;AJ Auxerre;FC Lorient;1
+104348;SCO Angers;FC Lorient;1
+104382;Ligue 1-Expenses;Guingamp;2
+104575;Montpellier;Ligue 1-Income;6
+104993;SCO Angers;Ligue 1-Income;2
+105161;FC Metz;Ligue 1-Income;6
+105360;Ligue 1-Expenses;Stade Rennais;3
+105444;SC Bastia;SCO Angers;1
+105454;Guingamp;SM Caen;1
+105504;Ligue 1-Expenses;Saint-Ãtienne;4
+105582;Olympique Lyon;Ligue 1-Income;14
+105591;SCO Angers;Ligue 1-Income;2
+105603;Paris SG;Ligue 1-Income;9
+105604;Ligue 1-Expenses;Marseille;11
+105617;Paris SG;Ligue 1-Income;9
+105638;Monaco;Ligue 1-Income;17
+105676;Monaco;Ligue 1-Income;17
+105695;Monaco;Ligue 1-Income;17
+105716;AJ Auxerre;Ligue 1-Income;1
+105722;Ligue 1-Expenses;LOSC Lille;9
+105728;Ligue 1-Expenses;Monaco;13
+105746;SC Amiens;Olympique Lyon;2
+105765;OGC Nice;Ligue 1-Income;7
+105768;Ligue 1-Expenses;Paris SG;5
+105772;Monaco;Ligue 1-Income;17
+105774;LOSC Lille;Ligue 1-Income;8
+105795;OGC Nice;Ligue 1-Income;7
+105836;FC Lorient;Ligue 1-Income;5
+105845;Ligue 1-Expenses;Marseille;11
+105854;Paris SG;Ligue 1-Income;9
+105864;Monaco;Ligue 1-Income;17
+105892;Monaco;Ligue 1-Income;17
+105898;Olympique Lyon;Ligue 1-Income;14
+105910;Paris SG;Ligue 1-Income;9
+105914;Ligue 1-Expenses;Monaco;13
+105921;Monaco;Paris SG;1
+105924;Ligue 1-Expenses;Paris SG;5
+105935;Montpellier;Ligue 1-Income;6
+105956;Ligue 1-Expenses;Monaco;13
+105973;Olympique Lyon;Ligue 1-Income;14
+105979;Toulouse;Ligue 1-Income;8
+105991;Ligue 1-Expenses;Saint-Ãtienne;4
+106021;Olympique Lyon;Ligue 1-Income;14
+106022;Ligue 1-Expenses;Marseille;11
+106032;Marseille;Ligue 1-Income;4
+106044;Olympique Lyon;Ligue 1-Income;14
+106046;Ligue 1-Expenses;Paris SG;5
+106050;Ligue 1-Expenses;Monaco;13
+106065;Paris SG;Ligue 1-Income;9
+106067;LOSC Lille;Ligue 1-Income;8
+106075;G. Bordeaux;Ligue 1-Income;7
+106090;Olympique Lyon;Monaco;1
+106098;Ligue 1-Expenses;Olympique Lyon;9
+106100;Toulouse;Ligue 1-Income;8
+106105;Marseille;Saint-Ãtienne;1
+106167;Montpellier;Ligue 1-Income;6
+106233;Monaco;Ligue 1-Income;17
+106255;Ligue 1-Expenses;LOSC Lille;9
+106263;Troyes;OGC Nice;1
+106278;Stade Rennais;Ligue 1-Income;4
+106280;Saint-Ãtienne;Monaco;1
+106309;LOSC Lille;Monaco;1
+106311;Guingamp;Stade Rennais;1
+106327;Monaco;Ligue 1-Income;17
+106328;Ligue 1-Expenses;Monaco;13
+106332;FC Metz;Ligue 1-Income;6
+106374;SM Caen;Ligue 1-Income;3
+106412;FC Metz;Toulouse;1
+106413;Ligue 1-Expenses;FC Metz;6
+106446;Saint-Ãtienne;Ligue 1-Income;5
+106501;OGC Nice;Ligue 1-Income;7
+106520;FC Lorient;NÃ®mes Olympique;1
+106581;Ligue 1-Expenses;Montpellier;4
+106600;Ligue 1-Expenses;FC Nantes;8
+106651;FC Metz;Ligue 1-Income;6
+106693;LOSC Lille;Ligue 1-Income;8
+106723;Ligue 1-Expenses;FC Nantes;8
+106818;G. Bordeaux;Ligue 1-Income;7
+106915;Ligue 1-Expenses;OGC Nice;3
+106927;Monaco;Ligue 1-Income;17
+106935;SCO Angers;SM Caen;1
+106944;LOSC Lille;Ligue 1-Income;8
+106967;Ligue 1-Expenses;Toulouse;4
+106994;Ligue 1-Expenses;Toulouse;4
+107038;Ligue 1-Expenses;Reims;3
+107041;SM Caen;Ligue 1-Income;3
+107060;Marseille;Ligue 1-Income;4
+107100;SM Caen;Ligue 1-Income;3
+107105;Ligue 1-Expenses;G. Bordeaux;7
+107120;OGC Nice;Ligue 1-Income;7
+107130;FC Lorient;Ligue 1-Income;5
+107179;Saint-Ãtienne;Ligue 1-Income;5
+107195;Troyes;Monaco;1
+107225;G. Bordeaux;Ligue 1-Income;7
+107243;Ligue 1-Expenses;Marseille;11
+107285;Ligue 1-Expenses;Reims;3
+107297;LOSC Lille;Ligue 1-Income;8
+107317;Paris SG;LOSC Lille;1
+107351;Monaco;Ligue 1-Income;17
+107382;Ligue 1-Expenses;SM Caen;4
+107439;LOSC Lille;Ligue 1-Income;8
+107472;Reims;Stade Rennais;2
+107489;FC Metz;Montpellier;1
+107504;FC Nantes;Ligue 1-Income;5
+107578;Ligue 1-Expenses;Olympique Lyon;9
+107641;Ligue 1-Expenses;FC Nantes;8
+107661;Ligue 1-Expenses;R. Strasbourg;7
+107669;Ligue 1-Expenses;G. Bordeaux;7
+107691;Ligue 1-Expenses;R. Strasbourg;7
+107740;Ligue 1-Expenses;FC Nantes;8
+107833;Ligue 1-Expenses;Reims;3
+107860;Ligue 1-Expenses;SM Caen;4
+107891;Paris SG;G. Bordeaux;2
+107942;FC Nantes;Ligue 1-Income;5
+107944;Ligue 1-Expenses;Toulouse;4
+107960;LOSC Lille;Dijon;1
+107979;G. Bordeaux;Montpellier;1
+107983;Montpellier;Ligue 1-Income;6
+107989;Stade Brest 29;R. Strasbourg;1
+108026;Stade Brest 29;Olympique Lyon;1
+108057;Ligue 1-Expenses;R. Strasbourg;7
+108060;Ligue 1-Expenses;SC Amiens;6
+108066;Ligue 1-Expenses;Dijon;2
+108073;Ligue 1-Expenses;Monaco;13
+108077;Troyes;Reims;2
+108078;Ligue 1-Expenses;Troyes;1
+108091;Dijon;Toulouse;1
+108092;LOSC Lille;R. Strasbourg;1
+108125;Ligue 1-Expenses;SC Amiens;6
+108129;Ligue 1-Expenses;FC Nantes;8
+108145;Stade Rennais;Toulouse;1
+108170;Monaco;Ligue 1-Income;17
+108184;Olympique Lyon;OGC Nice;1
+108199;Saint-Ãtienne;SCO Angers;1
+108221;Toulouse;Ligue 1-Income;8
+108223;Ligue 1-Expenses;OGC Nice;3
+108240;Ligue 1-Expenses;SCO Angers;1
+108264;R. Strasbourg;Monaco;1
+108516;Ligue 1-Expenses;Montpellier;4
+108663;Toulouse;Ligue 1-Income;8
+108749;Montpellier;SM Caen;1
+108950;Olympique Lyon;Stade Rennais;1
+108968;Troyes;FC Nantes;1
+108979;Ligue 1-Expenses;Toulouse;4
+109023;FC Nantes;SM Caen;1
+109084;LOSC Lille;FC Metz;1
+109278;FC Lorient;Ligue 1-Income;5
+109366;Ligue 1-Expenses;FC Lorient;1
+109393;Troyes;AJ Auxerre;1
+109641;AC Ajaccio;Lens;2
+109708;Olympique Lyon;Ligue 1-Income;14
+109736;FC Metz;Ligue 1-Income;6
+109866;Ligue 1-Expenses;FC Metz;6
+109907;Ligue 1-Expenses;Lens;1
+110005;Ligue 1-Expenses;Olympique Lyon;9
+110055;Ligue 1-Expenses;AJ Auxerre;3
+110219;Troyes;Reims;2
+110685;Ligue 1-Expenses;Dijon;2
+110760;Ligue 1-Expenses;FC Metz;6
+110762;Ligue 1-Expenses;SM Caen;4
+110790;Ligue 1-Expenses;FC Metz;6
+111058;Reims;Ligue 1-Income;2
+111093;Ligue 1-Expenses;FC Metz;6
+111105;Ligue 1-Expenses;Montpellier;4
+111241;Ligue 1-Expenses;R. Strasbourg;7
+111279;Valenciennes FC;Guingamp;1
+111292;Ligue 1-Expenses;Montpellier;4
+111303;Ligue 1-Expenses;AC Le Havre;1
+111309;Lens;Ligue 1-Income;4
+111324;Stade Rennais;Ligue 1-Income;4
+111338;SC Amiens;Guingamp;1
+111400;Lens;Ligue 1-Income;4

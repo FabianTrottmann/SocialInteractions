@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d65b88ad-3c54-49b2-895d-bb3b4c0cb545" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataPreparer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataPreparer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NetworkDrawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkDrawer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Program.py" afterDir="false" />
     </list>
@@ -150,19 +151,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/NetworkDrawer.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
+          <line>9</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="df.loc[df['to_club_name'] == &quot;FC Basel&quot;]" language="Python" />
-        <watch expression="df.loc[df['from_club_name'] == &quot;FC Basel&quot;]" language="Python" />
-        <watch expression="df[&quot;from_club_name&quot;]" language="Python" />
+        <watch expression="e" language="Python" />
+        <watch expression="df[df[&quot;to_club_name&quot;] == toClub &amp; df[&quot;from_club_name&quot;] == fromClub]" language="Python" />
         <watch expression="clubsFrom" language="Python" />
         <watch expression="len(df[df[&quot;to_club_name&quot;].isin(clubFilter)])" language="Python" />
         <watch expression="len(df)" language="Python" />
+        <watch expression="dfLeague[dfLeague[&quot;name&quot;] == league][&quot;id&quot;].iloc[0]" language="Python" />
       </configuration>
     </watches-manager>
   </component>

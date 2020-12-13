@@ -5,714 +5,165 @@
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
     <nodes>
-      <node id="Juventus" label="Juventus" />
-      <node id="Atalanta" label="Atalanta" />
-      <node id="Paris SG" label="Paris SG" />
-      <node id="Liverpool" label="Liverpool" />
-      <node id="Galatasaray" label="Galatasaray" />
-      <node id="Chelsea" label="Chelsea" />
-      <node id="Man Utd" label="Man Utd" />
-      <node id="Bayern Munich" label="Bayern Munich" />
-      <node id="Bay. Leverkusen" label="Bay. Leverkusen" />
-      <node id="Real Madrid" label="Real Madrid" />
-      <node id="Monaco" label="Monaco" />
-      <node id="CSKA Moscow" label="CSKA Moscow" />
-      <node id="AC Milan" label="AC Milan" />
-      <node id="Man City" label="Man City" />
-      <node id="Sampdoria" label="Sampdoria" />
-      <node id="Santos FC" label="Santos FC" />
-      <node id="FC Barcelona" label="FC Barcelona" />
-      <node id="AS Roma" label="AS Roma" />
-      <node id="Fiorentina" label="Fiorentina" />
-      <node id="AtlÃ©tico Madrid" label="AtlÃ©tico Madrid" />
-      <node id="Swansea" label="Swansea" />
-      <node id="Arsenal" label="Arsenal" />
-      <node id="Zenit S-Pb" label="Zenit S-Pb" />
-      <node id="SSC Napoli" label="SSC Napoli" />
-      <node id="Sassuolo" label="Sassuolo" />
-      <node id="FC Basel" label="FC Basel" />
-      <node id="VfL Wolfsburg" label="VfL Wolfsburg" />
-      <node id="West Brom" label="West Brom" />
-      <node id="Valencia" label="Valencia" />
-      <node id="West Ham" label="West Ham" />
-      <node id="Everton" label="Everton" />
-      <node id="SÃ£o Paulo" label="SÃ£o Paulo" />
-      <node id="Celta de Vigo" label="Celta de Vigo" />
-      <node id="Bursaspor" label="Bursaspor" />
-      <node id="FC Empoli" label="FC Empoli" />
-      <node id="MÃ¡laga CF" label="MÃ¡laga CF" />
-      <node id="Sunderland" label="Sunderland" />
-      <node id="Spurs" label="Spurs" />
-      <node id="Real Sociedad" label="Real Sociedad" />
-      <node id="FC Schalke 04" label="FC Schalke 04" />
-      <node id="Cardiff" label="Cardiff" />
-      <node id="Torino" label="Torino" />
-      <node id="Bayern Munich " label="Bayern Munich " />
-      <node id="Athletic" label="Athletic" />
-      <node id="Villarreal" label="Villarreal" />
-      <node id="Dynamo Kyiv" label="Dynamo Kyiv" />
-      <node id="Sevilla FC" label="Sevilla FC" />
-      <node id="RB Salzburg" label="RB Salzburg" />
-      <node id="Bra" label="Bra" />
-      <node id="Al-Jazira" label="Al-Jazira" />
-      <node id="Genoa" label="Genoa" />
-      <node id="Sporting CP" label="Sporting CP" />
-      <node id="Werder Bremen" label="Werder Bremen" />
-      <node id="Inter" label="Inter" />
-      <node id="Getafe" label="Getafe" />
-      <node id="Bolton" label="Bolton" />
-      <node id="FC Augsburg" label="FC Augsburg" />
-      <node id="Real Betis" label="Real Betis" />
-      <node id="Spartak Moscow" label="Spartak Moscow" />
-      <node id="Arab Contr." label="Arab Contr." />
-      <node id="Spezia Calcio" label="Spezia Calcio" />
-      <node id="RSC Anderlecht" label="RSC Anderlecht" />
-      <node id="1.FSV Mainz 05" label="1.FSV Mainz 05" />
-      <node id="Dubai CSC" label="Dubai CSC" />
-      <node id="Hamburger SV" label="Hamburger SV" />
-      <node id="QuindÃ­o" label="QuindÃ­o" />
-      <node id="Heart of Midl." label="Heart of Midl." />
-      <node id="AlcorcÃ³n" label="AlcorcÃ³n" />
-      <node id="Siena" label="Siena" />
-      <node id="Ipswich" label="Ipswich" />
-      <node id="Partizan" label="Partizan" />
-      <node id="FC Winterthur" label="FC Winterthur" />
-      <node id="Levante" label="Levante" />
-      <node id="Benfica" label="Benfica" />
-      <node id="BrÃ¶ndby IF" label="BrÃ¶ndby IF" />
-      <node id="LOSC Lille" label="LOSC Lille" />
-      <node id="QPR" label="QPR" />
-      <node id="Southampton" label="Southampton" />
-      <node id="Bor. Dortmund" label="Bor. Dortmund" />
-      <node id="Stoke City" label="Stoke City" />
-      <node id="Bor. M'gladbach" label="Bor. M'gladbach" />
-      <node id="AFC Ajax" label="AFC Ajax" />
-      <node id="Internacional" label="Internacional" />
-      <node id="Orlando City SC" label="Orlando City SC" />
-      <node id="FC Porto" label="FC Porto" />
-      <node id="Cruzeiro" label="Cruzeiro" />
-      <node id="Toronto FC" label="Toronto FC" />
-      <node id="Udinese Calcio" label="Udinese Calcio" />
-      <node id="Crystal Palace" label="Crystal Palace" />
-      <node id="Burnley" label="Burnley" />
-      <node id="Sparta Praha" label="Sparta Praha" />
-      <node id="Shabab" label="Shabab" />
-      <node id="Chievo Verona" label="Chievo Verona" />
-      <node id="Parma" label="Parma" />
-      <node id="Dinamo Moscow" label="Dinamo Moscow" />
-      <node id="Watford" label="Watford" />
-      <node id="1.FC Nuremberg" label="1.FC Nuremberg" />
-      <node id="Hellas Verona" label="Hellas Verona" />
-      <node id="Bologna" label="Bologna" />
-      <node id="Trabzonspor" label="Trabzonspor" />
-      <node id="Dinamo Zagreb" label="Dinamo Zagreb" />
-      <node id="Dep. La CoruÃ±a" label="Dep. La CoruÃ±a" />
-      <node id="Hertha BSC" label="Hertha BSC" />
-      <node id="Al-Ahli (UAE)" label="Al-Ahli (UAE)" />
-      <node id="Coritiba FC" label="Coritiba FC" />
-      <node id="US Palermo" label="US Palermo" />
-      <node id="G. Bordeaux" label="G. Bordeaux" />
-      <node id="VfB Stuttgart" label="VfB Stuttgart" />
-      <node id="Granada CF" label="Granada CF" />
-      <node id="Vojvodina" label="Vojvodina" />
-      <node id="Vicenza" label="Vicenza" />
-      <node id="Fulham" label="Fulham" />
-      <node id="CFR Cluj" label="CFR Cluj" />
-      <node id="NYCFC" label="NYCFC" />
-      <node id="Fenerbahce" label="Fenerbahce" />
-      <node id="Al Sadd" label="Al Sadd" />
-      <node id="Aston Villa" label="Aston Villa" />
-      <node id="GZ Evergrande" label="GZ Evergrande" />
-      <node id="Boca Juniors" label="Boca Juniors" />
+      <node id="Ligue 1-Expenses" label="Ligue 1-Expenses" />
+      <node id="SC Amiens" label="SC Amiens" />
       <node id="Olympique Lyon" label="Olympique Lyon" />
-      <node id="Red Star" label="Red Star" />
-      <node id="LA Galaxy" label="LA Galaxy" />
-      <node id="Panathinaikos" label="Panathinaikos" />
+      <node id="Ligue 1-Income" label="Ligue 1-Income" />
+      <node id="Paris SG" label="Paris SG" />
+      <node id="Monaco" label="Monaco" />
+      <node id="G. Bordeaux" label="G. Bordeaux" />
       <node id="Marseille" label="Marseille" />
-      <node id="PSV Eindhoven" label="PSV Eindhoven" />
-      <node id="Ittihad" label="Ittihad" />
-      <node id="Charlton" label="Charlton" />
-      <node id="RCD Mallorca" label="RCD Mallorca" />
-      <node id="TSG Hoffenheim" label="TSG Hoffenheim" />
-      <node id="Espanyol" label="Espanyol" />
-      <node id="Carpi" label="Carpi" />
-      <node id="AlavÃ©s" label="AlavÃ©s" />
+      <node id="LOSC Lille" label="LOSC Lille" />
+      <node id="Saint-Ãtienne" label="Saint-Ãtienne" />
+      <node id="AC Le Havre" label="AC Le Havre" />
+      <node id="SCO Angers" label="SCO Angers" />
+      <node id="Lens" label="Lens" />
       <node id="Stade Rennais" label="Stade Rennais" />
-      <node id="Cagliari Calcio" label="Cagliari Calcio" />
-      <node id="Ãjpest FC" label="Ãjpest FC" />
-      <node id="Real Zaragoza" label="Real Zaragoza" />
-      <node id="Sydney FC" label="Sydney FC" />
-      <node id="Shakhtar D." label="Shakhtar D." />
-      <node id="Feyenoord" label="Feyenoord" />
-      <node id="1. FC KÃ¶ln" label="1. FC KÃ¶ln" />
-      <node id="Pescara" label="Pescara" />
-      <node id="Grasshoppers" label="Grasshoppers" />
-      <node id="Norwich" label="Norwich" />
-      <node id="AEK Athens" label="AEK Athens" />
-      <node id="BSC Young Boys" label="BSC Young Boys" />
-      <node id="Monza" label="Monza" />
-      <node id="NK Olimpija" label="NK Olimpija" />
-      <node id="Avellino" label="Avellino" />
-      <node id="Bradford" label="Bradford" />
-      <node id="Lechia Gdansk" label="Lechia Gdansk" />
-      <node id="Odense BK" label="Odense BK" />
-      <node id="Ternana" label="Ternana" />
-      <node id="Virtus Lanciano" label="Virtus Lanciano" />
-      <node id="Envigado" label="Envigado" />
-      <node id="Padova" label="Padova" />
-      <node id="Middlesbrough" label="Middlesbrough" />
-      <node id="Besiktas" label="Besiktas" />
-      <node id="Celtic" label="Celtic" />
       <node id="OGC Nice" label="OGC Nice" />
-      <node id="Chicago Fire" label="Chicago Fire" />
-      <node id="Rubin Kazan" label="Rubin Kazan" />
-      <node id="Newcastle" label="Newcastle" />
-      <node id="UD Las Palmas" label="UD Las Palmas" />
-      <node id="HB CFFC" label="HB CFFC" />
-      <node id="Molde FK" label="Molde FK" />
-      <node id="Lazio" label="Lazio" />
-      <node id="Bournemouth" label="Bournemouth" />
-      <node id="Juventud" label="Juventud" />
-      <node id="Cesena" label="Cesena" />
-      <node id="CD LeganÃ©s" label="CD LeganÃ©s" />
-      <node id="Bristol City" label="Bristol City" />
-      <node id="Reading" label="Reading" />
-      <node id="Zulte Waregem" label="Zulte Waregem" />
-      <node id="River Plate" label="River Plate" />
-      <node id="LanÃºs" label="LanÃºs" />
-      <node id="E. Frankfurt" label="E. Frankfurt" />
-      <node id="Olympiacos" label="Olympiacos" />
-      <node id="Ascoli" label="Ascoli" />
-      <node id="Wigan" label="Wigan" />
-      <node id="MalmÃ¶ FF" label="MalmÃ¶ FF" />
-      <node id="Como" label="Como" />
-      <node id="Hull City" label="Hull City" />
-      <node id="CF Pachuca" label="CF Pachuca" />
-      <node id="Palmeiras" label="Palmeiras" />
-      <node id="Vitesse" label="Vitesse" />
-      <node id="Chelsea U23" label="Chelsea U23" />
-      <node id="JS Suning" label="JS Suning" />
-      <node id="Real Valladolid" label="Real Valladolid" />
-      <node id="Derby" label="Derby" />
-      <node id="Monterrey" label="Monterrey" />
-      <node id="Fluminense" label="Fluminense" />
-      <node id="SC Freiburg" label="SC Freiburg" />
-      <node id="Slo. Bratislava" label="Slo. Bratislava" />
-      <node id="Legia Warszawa" label="Legia Warszawa" />
-      <node id="Heerenveen" label="Heerenveen" />
-      <node id="Benevento" label="Benevento" />
-      <node id="Cremonese" label="Cremonese" />
-      <node id="FC St. Gallen" label="FC St. Gallen" />
-      <node id="GrÃªmio" label="GrÃªmio" />
-      <node id="Vissel Kobe" label="Vissel Kobe" />
-      <node id="Al Duhail" label="Al Duhail" />
-      <node id="Rio Ave FC" label="Rio Ave FC" />
-      <node id="SD Luneng" label="SD Luneng" />
-      <node id="Flamengo" label="Flamengo" />
-      <node id="RB Leipzig" label="RB Leipzig" />
-      <node id="TJ Teda" label="TJ Teda" />
-      <node id="Rangers" label="Rangers" />
-      <node id="Zorya Lugansk" label="Zorya Lugansk" />
-      <node id="CA Osasuna" label="CA Osasuna" />
-      <node id="Standard LiÃšge" label="Standard LiÃšge" />
-      <node id="Perugia" label="Perugia" />
-      <node id="Leeds" label="Leeds" />
-      <node id="Rayo Vallecano" label="Rayo Vallecano" />
-      <node id="Leicester" label="Leicester" />
+      <node id="FC Nantes" label="FC Nantes" />
+      <node id="FC Metz" label="FC Metz" />
+      <node id="Montpellier" label="Montpellier" />
       <node id="Toulouse" label="Toulouse" />
-      <node id="FC Ingolstadt" label="FC Ingolstadt" />
+      <node id="Dijon" label="Dijon" />
+      <node id="AS Nancy" label="AS Nancy" />
+      <node id="FC Lorient" label="FC Lorient" />
+      <node id="Guingamp" label="Guingamp" />
+      <node id="SM Caen" label="SM Caen" />
+      <node id="Valenciennes FC" label="Valenciennes FC" />
+      <node id="R. Strasbourg" label="R. Strasbourg" />
+      <node id="NÃ®mes Olympique" label="NÃ®mes Olympique" />
+      <node id="SC Bastia" label="SC Bastia" />
+      <node id="G. Ajaccio" label="G. Ajaccio" />
+      <node id="FC Sochaux" label="FC Sochaux" />
+      <node id="Reims" label="Reims" />
+      <node id="AJ Auxerre" label="AJ Auxerre" />
+      <node id="AC Ajaccio" label="AC Ajaccio" />
+      <node id="Troyes" label="Troyes" />
+      <node id="Stade Brest 29" label="Stade Brest 29" />
     </nodes>
     <edges>
-      <edge id="0" source="Juventus" target="Atalanta" />
-      <edge id="1" source="Juventus" target="Galatasaray" />
-      <edge id="2" source="Juventus" target="Sampdoria" />
-      <edge id="3" source="Juventus" target="Sassuolo" />
-      <edge id="4" source="Juventus" target="West Brom" />
-      <edge id="5" source="Juventus" target="AC Milan" />
-      <edge id="6" source="Juventus" target="Sunderland" />
-      <edge id="7" source="Juventus" target="Spezia Calcio" />
-      <edge id="8" source="Juventus" target="Torino" />
-      <edge id="9" source="Juventus" target="Al-Jazira" />
-      <edge id="10" source="Juventus" target="Toronto FC" />
-      <edge id="11" source="Juventus" target="QPR" />
-      <edge id="12" source="Juventus" target="Shabab" />
-      <edge id="13" source="Juventus" target="Watford" />
-      <edge id="14" source="Juventus" target="Hellas Verona" />
-      <edge id="15" source="Juventus" target="Bologna" />
-      <edge id="16" source="Juventus" target="NYCFC" />
-      <edge id="17" source="Juventus" target="Boca Juniors" />
-      <edge id="18" source="Juventus" target="Chievo Verona" />
-      <edge id="19" source="Juventus" target="Bayern Munich " />
-      <edge id="20" source="Juventus" target="West Ham" />
-      <edge id="21" source="Juventus" target="Sevilla FC" />
-      <edge id="22" source="Juventus" target="Marseille" />
-      <edge id="23" source="Juventus" target="Cagliari Calcio" />
-      <edge id="24" source="Juventus" target="Ãjpest FC" />
-      <edge id="25" source="Juventus" target="1. FC KÃ¶ln" />
-      <edge id="26" source="Juventus" target="US Palermo" />
-      <edge id="27" source="Juventus" target="Valencia" />
-      <edge id="28" source="Juventus" target="Real Madrid" />
-      <edge id="29" source="Juventus" target="Man Utd" />
-      <edge id="30" source="Juventus" target="HB CFFC" />
-      <edge id="31" source="Juventus" target="Juventud" />
-      <edge id="32" source="Juventus" target="CD LeganÃ©s" />
-      <edge id="33" source="Juventus" target="Bristol City" />
-      <edge id="34" source="Juventus" target="Zulte Waregem" />
-      <edge id="35" source="Juventus" target="Olympiacos" />
-      <edge id="36" source="Juventus" target="FC Empoli" />
-      <edge id="37" source="Juventus" target="Paris SG" />
-      <edge id="38" source="Juventus" target="Southampton" />
-      <edge id="39" source="Juventus" target="FC Schalke 04" />
-      <edge id="40" source="Juventus" target="VfB Stuttgart" />
-      <edge id="41" source="Juventus" target="Legia Warszawa" />
-      <edge id="42" source="Juventus" target="Ascoli" />
-      <edge id="43" source="Juventus" target="Benevento" />
-      <edge id="44" source="Juventus" target="Pescara" />
-      <edge id="45" source="Juventus" target="Cremonese" />
-      <edge id="46" source="Juventus" target="Inter" />
-      <edge id="47" source="Juventus" target="Zenit S-Pb" />
-      <edge id="48" source="Juventus" target="Arsenal" />
-      <edge id="49" source="Juventus" target="Genoa" />
-      <edge id="50" source="Juventus" target="Al Duhail" />
-      <edge id="51" source="Juventus" target="Chelsea" />
-      <edge id="52" source="Juventus" target="Udinese Calcio" />
-      <edge id="53" source="Juventus" target="Fiorentina" />
-      <edge id="54" source="Juventus" target="Perugia" />
-      <edge id="55" source="Atalanta" target="Juventus" />
-      <edge id="56" source="Atalanta" target="AC Milan" />
-      <edge id="57" source="Paris SG" target="Liverpool" />
-      <edge id="58" source="Paris SG" target="AC Milan" />
-      <edge id="59" source="Paris SG" target="Juventus" />
-      <edge id="60" source="Paris SG" target="Man Utd" />
-      <edge id="61" source="Paris SG" target="FC Barcelona" />
-      <edge id="62" source="Liverpool" target="Swansea" />
-      <edge id="63" source="Liverpool" target="West Ham" />
-      <edge id="64" source="Liverpool" target="Sunderland" />
-      <edge id="65" source="Liverpool" target="RB Salzburg" />
-      <edge id="66" source="Liverpool" target="Bolton" />
-      <edge id="67" source="Liverpool" target="Heart of Midl." />
-      <edge id="68" source="Liverpool" target="AlcorcÃ³n" />
-      <edge id="69" source="Liverpool" target="Bayern Munich " />
-      <edge id="70" source="Liverpool" target="BrÃ¶ndby IF" />
-      <edge id="71" source="Liverpool" target="FC Barcelona" />
-      <edge id="72" source="Liverpool" target="AC Milan" />
-      <edge id="73" source="Liverpool" target="Crystal Palace" />
-      <edge id="74" source="Liverpool" target="Al-Ahli (UAE)" />
-      <edge id="75" source="Liverpool" target="QPR" />
-      <edge id="76" source="Liverpool" target="Red Star" />
-      <edge id="77" source="Liverpool" target="Stoke City" />
-      <edge id="78" source="Liverpool" target="Man City" />
-      <edge id="79" source="Liverpool" target="Sevilla FC" />
-      <edge id="80" source="Liverpool" target="LA Galaxy" />
-      <edge id="81" source="Liverpool" target="Aston Villa" />
-      <edge id="82" source="Liverpool" target="West Brom" />
-      <edge id="83" source="Liverpool" target="Norwich" />
-      <edge id="84" source="Liverpool" target="Bradford" />
-      <edge id="85" source="Liverpool" target="Celtic" />
-      <edge id="86" source="Liverpool" target="Fenerbahce" />
-      <edge id="87" source="Liverpool" target="OGC Nice" />
-      <edge id="88" source="Liverpool" target="Lazio" />
-      <edge id="89" source="Liverpool" target="Bournemouth" />
-      <edge id="90" source="Liverpool" target="Reading" />
-      <edge id="91" source="Liverpool" target="FC Porto" />
-      <edge id="92" source="Liverpool" target="VfL Wolfsburg" />
-      <edge id="93" source="Liverpool" target="Derby" />
-      <edge id="94" source="Liverpool" target="Hull City" />
-      <edge id="95" source="Liverpool" target="Cagliari Calcio" />
-      <edge id="96" source="Liverpool" target="Fulham" />
-      <edge id="97" source="Liverpool" target="Juventus" />
-      <edge id="98" source="Liverpool" target="Hertha BSC" />
-      <edge id="99" source="Liverpool" target="Rangers" />
-      <edge id="100" source="Liverpool" target="Besiktas" />
-      <edge id="101" source="Liverpool" target="Leicester" />
-      <edge id="102" source="Liverpool" target="Southampton" />
-      <edge id="103" source="Chelsea" target="Man Utd" />
-      <edge id="104" source="Chelsea" target="AC Milan" />
-      <edge id="105" source="Chelsea" target="Liverpool" />
-      <edge id="106" source="Chelsea" target="Juventus" />
-      <edge id="107" source="Chelsea" target="Real Madrid" />
-      <edge id="108" source="Man Utd" target="Cardiff" />
-      <edge id="109" source="Man Utd" target="Ipswich" />
-      <edge id="110" source="Man Utd" target="Real Madrid" />
-      <edge id="111" source="Man Utd" target="QPR" />
-      <edge id="112" source="Man Utd" target="Bor. Dortmund" />
-      <edge id="113" source="Man Utd" target="Internacional" />
-      <edge id="114" source="Man Utd" target="Arsenal" />
-      <edge id="115" source="Man Utd" target="West Brom" />
-      <edge id="116" source="Man Utd" target="Juventus" />
-      <edge id="117" source="Man Utd" target="Inter" />
-      <edge id="118" source="Man Utd" target="Crystal Palace" />
-      <edge id="119" source="Man Utd" target="Burnley" />
-      <edge id="120" source="Man Utd" target="Dinamo Moscow" />
-      <edge id="121" source="Man Utd" target="Dinamo Zagreb" />
-      <edge id="122" source="Man Utd" target="Benfica" />
-      <edge id="123" source="Man Utd" target="CFR Cluj" />
-      <edge id="124" source="Man Utd" target="Fenerbahce" />
-      <edge id="125" source="Man Utd" target="Bay. Leverkusen" />
-      <edge id="126" source="Man Utd" target="Olympique Lyon" />
-      <edge id="127" source="Man Utd" target="Paris SG" />
-      <edge id="128" source="Man Utd" target="Everton" />
-      <edge id="129" source="Man Utd" target="Lechia Gdansk" />
-      <edge id="130" source="Man Utd" target="Bolton" />
-      <edge id="131" source="Man Utd" target="Middlesbrough" />
-      <edge id="132" source="Man Utd" target="Chicago Fire" />
-      <edge id="133" source="Man Utd" target="Sunderland" />
-      <edge id="134" source="Man Utd" target="Wigan" />
-      <edge id="135" source="Man Utd" target="Hull City" />
-      <edge id="136" source="Man Utd" target="Reading" />
-      <edge id="137" source="Man Utd" target="LA Galaxy" />
-      <edge id="138" source="Man Utd" target="Real Sociedad" />
-      <edge id="139" source="Man Utd" target="Valencia" />
-      <edge id="140" source="Man Utd" target="AFC Ajax" />
-      <edge id="141" source="Man Utd" target="SD Luneng" />
-      <edge id="142" source="Bayern Munich" target="Bay. Leverkusen" />
-      <edge id="143" source="Bayern Munich" target="Fiorentina" />
-      <edge id="144" source="Bayern Munich" target="Zenit S-Pb" />
-      <edge id="145" source="Bayern Munich" target="VfL Wolfsburg" />
-      <edge id="146" source="Bayern Munich" target="Werder Bremen" />
-      <edge id="147" source="Bayern Munich" target="FC Schalke 04" />
-      <edge id="148" source="Bayern Munich" target="Real Madrid" />
-      <edge id="149" source="Bayern Munich" target="AtlÃ©tico Madrid" />
-      <edge id="150" source="Bayern Munich" target="1.FC Nuremberg" />
-      <edge id="151" source="Bayern Munich" target="G. Bordeaux" />
-      <edge id="152" source="Bayern Munich" target="Hamburger SV" />
-      <edge id="153" source="Bayern Munich" target="SSC Napoli" />
-      <edge id="154" source="Bayern Munich" target="Inter" />
-      <edge id="155" source="Bayern Munich" target="Man Utd" />
-      <edge id="156" source="Bayern Munich" target="Hertha BSC" />
-      <edge id="157" source="Bayern Munich" target="Sunderland" />
-      <edge id="158" source="Bayern Munich" target="Bor. Dortmund" />
-      <edge id="159" source="Bayern Munich" target="Juventus" />
-      <edge id="160" source="Bayern Munich" target="Southampton" />
-      <edge id="161" source="Bayern Munich" target="VfB Stuttgart" />
-      <edge id="162" source="Bayern Munich" target="Swansea" />
-      <edge id="163" source="Bayern Munich" target="TSG Hoffenheim" />
-      <edge id="164" source="Bayern Munich" target="Chievo Verona" />
-      <edge id="165" source="Bayern Munich" target="Paris SG" />
-      <edge id="166" source="Bayern Munich" target="FC Barcelona" />
-      <edge id="167" source="Bayern Munich" target="TJ Teda" />
-      <edge id="168" source="Bayern Munich" target="FC Augsburg" />
-      <edge id="169" source="Bay. Leverkusen" target="Real Madrid" />
-      <edge id="170" source="Bay. Leverkusen" target="Liverpool" />
-      <edge id="171" source="Bay. Leverkusen" target="AC Milan" />
-      <edge id="172" source="Real Madrid" target="Monaco" />
-      <edge id="173" source="Real Madrid" target="Arsenal" />
-      <edge id="174" source="Real Madrid" target="SSC Napoli" />
-      <edge id="175" source="Real Madrid" target="AC Milan" />
-      <edge id="176" source="Real Madrid" target="Getafe" />
-      <edge id="177" source="Real Madrid" target="Levante" />
-      <edge id="178" source="Real Madrid" target="Bor. Dortmund" />
-      <edge id="179" source="Real Madrid" target="Bayern Munich " />
-      <edge id="180" source="Real Madrid" target="Man Utd" />
-      <edge id="181" source="Real Madrid" target="FC Porto" />
-      <edge id="182" source="Real Madrid" target="Juventus" />
-      <edge id="183" source="Real Madrid" target="Marseille" />
-      <edge id="184" source="Real Madrid" target="Real Sociedad" />
-      <edge id="185" source="Real Madrid" target="AlavÃ©s" />
-      <edge id="186" source="Real Madrid" target="Paris SG" />
-      <edge id="187" source="Real Madrid" target="West Ham" />
-      <edge id="188" source="Real Madrid" target="Villarreal" />
-      <edge id="189" source="Real Madrid" target="E. Frankfurt" />
-      <edge id="190" source="Real Madrid" target="VfL Wolfsburg" />
-      <edge id="191" source="Real Madrid" target="Valencia" />
-      <edge id="192" source="Real Madrid" target="Besiktas" />
-      <edge id="193" source="Real Madrid" target="Man City" />
-      <edge id="194" source="Real Madrid" target="Sporting CP" />
-      <edge id="195" source="Real Madrid" target="Chelsea" />
-      <edge id="196" source="Real Madrid" target="Olympique Lyon" />
-      <edge id="197" source="Real Madrid" target="SC Freiburg" />
-      <edge id="198" source="Real Madrid" target="Rio Ave FC" />
-      <edge id="199" source="Real Madrid" target="Leeds" />
-      <edge id="200" source="Real Madrid" target="Rayo Vallecano" />
-      <edge id="201" source="Real Madrid" target="FC Schalke 04" />
-      <edge id="202" source="Monaco" target="Man Utd" />
-      <edge id="203" source="Monaco" target="Real Madrid" />
-      <edge id="204" source="Monaco" target="Liverpool" />
-      <edge id="205" source="CSKA Moscow" target="AC Milan" />
-      <edge id="206" source="AC Milan" target="Arsenal" />
-      <edge id="207" source="AC Milan" target="Bursaspor" />
-      <edge id="208" source="AC Milan" target="FC Schalke 04" />
-      <edge id="209" source="AC Milan" target="Fiorentina" />
-      <edge id="210" source="AC Milan" target="Genoa" />
-      <edge id="211" source="AC Milan" target="Atalanta" />
-      <edge id="212" source="AC Milan" target="Sampdoria" />
-      <edge id="213" source="AC Milan" target="Liverpool" />
-      <edge id="214" source="AC Milan" target="Orlando City SC" />
-      <edge id="215" source="AC Milan" target="Benfica" />
-      <edge id="216" source="AC Milan" target="AS Roma" />
-      <edge id="217" source="AC Milan" target="Trabzonspor" />
-      <edge id="218" source="AC Milan" target="Bologna" />
-      <edge id="219" source="AC Milan" target="Monaco" />
-      <edge id="220" source="AC Milan" target="GZ Evergrande" />
-      <edge id="221" source="AC Milan" target="LA Galaxy" />
-      <edge id="222" source="AC Milan" target="Panathinaikos" />
-      <edge id="223" source="AC Milan" target="Sevilla FC" />
-      <edge id="224" source="AC Milan" target="Hellas Verona" />
-      <edge id="225" source="AC Milan" target="FC Empoli" />
-      <edge id="226" source="AC Milan" target="Ittihad" />
-      <edge id="227" source="AC Milan" target="Villarreal" />
-      <edge id="228" source="AC Milan" target="Carpi" />
-      <edge id="229" source="AC Milan" target="AEK Athens" />
-      <edge id="230" source="AC Milan" target="Chievo Verona" />
-      <edge id="231" source="AC Milan" target="Cagliari Calcio" />
-      <edge id="232" source="AC Milan" target="NK Olimpija" />
-      <edge id="233" source="AC Milan" target="Padova" />
-      <edge id="234" source="AC Milan" target="Watford" />
-      <edge id="235" source="AC Milan" target="AtlÃ©tico Madrid" />
-      <edge id="236" source="AC Milan" target="G. Bordeaux" />
-      <edge id="237" source="AC Milan" target="UD Las Palmas" />
-      <edge id="238" source="AC Milan" target="Sassuolo" />
-      <edge id="239" source="AC Milan" target="Cesena" />
-      <edge id="240" source="AC Milan" target="Spartak Moscow" />
-      <edge id="241" source="AC Milan" target="Torino" />
-      <edge id="242" source="AC Milan" target="CF Pachuca" />
-      <edge id="243" source="AC Milan" target="Juventus" />
-      <edge id="244" source="AC Milan" target="Espanyol" />
-      <edge id="245" source="AC Milan" target="JS Suning" />
-      <edge id="246" source="AC Milan" target="Monterrey" />
-      <edge id="247" source="AC Milan" target="AlavÃ©s" />
-      <edge id="248" source="AC Milan" target="Standard LiÃšge" />
-      <edge id="249" source="AC Milan" target="Palmeiras" />
-      <edge id="250" source="AC Milan" target="Perugia" />
-      <edge id="251" source="Man City" target="Liverpool" />
-      <edge id="252" source="Man City" target="Juventus" />
-      <edge id="253" source="Man City" target="Real Madrid" />
-      <edge id="254" source="Sampdoria" target="Juventus" />
-      <edge id="255" source="Sampdoria" target="AC Milan" />
-      <edge id="256" source="Sampdoria" target="Man Utd" />
-      <edge id="257" source="Santos FC" target="FC Barcelona" />
-      <edge id="258" source="FC Barcelona" target="AtlÃ©tico Madrid" />
-      <edge id="259" source="FC Barcelona" target="Bayern Munich " />
-      <edge id="260" source="FC Barcelona" target="Monaco" />
-      <edge id="261" source="FC Barcelona" target="Celta de Vigo" />
-      <edge id="262" source="FC Barcelona" target="Stoke City" />
-      <edge id="263" source="FC Barcelona" target="Chelsea" />
-      <edge id="264" source="FC Barcelona" target="Arsenal" />
-      <edge id="265" source="FC Barcelona" target="FC Porto" />
-      <edge id="266" source="FC Barcelona" target="Villarreal" />
-      <edge id="267" source="FC Barcelona" target="Dep. La CoruÃ±a" />
-      <edge id="268" source="FC Barcelona" target="Coritiba FC" />
-      <edge id="269" source="FC Barcelona" target="Granada CF" />
-      <edge id="270" source="FC Barcelona" target="Al Sadd" />
-      <edge id="271" source="FC Barcelona" target="Everton" />
-      <edge id="272" source="FC Barcelona" target="Inter" />
-      <edge id="273" source="FC Barcelona" target="Besiktas" />
-      <edge id="274" source="FC Barcelona" target="Juventus" />
-      <edge id="275" source="FC Barcelona" target="Man City" />
-      <edge id="276" source="FC Barcelona" target="Bor. Dortmund" />
-      <edge id="277" source="FC Barcelona" target="Rubin Kazan" />
-      <edge id="278" source="FC Barcelona" target="Fiorentina" />
-      <edge id="279" source="FC Barcelona" target="Valencia" />
-      <edge id="280" source="FC Barcelona" target="MÃ¡laga CF" />
-      <edge id="281" source="FC Barcelona" target="Hamburger SV" />
-      <edge id="282" source="FC Barcelona" target="Watford" />
-      <edge id="283" source="FC Barcelona" target="Paris SG" />
-      <edge id="284" source="FC Barcelona" target="HB CFFC" />
-      <edge id="285" source="FC Barcelona" target="Sporting CP" />
-      <edge id="286" source="FC Barcelona" target="Real Betis" />
-      <edge id="287" source="FC Barcelona" target="Real Valladolid" />
-      <edge id="288" source="FC Barcelona" target="Vissel Kobe" />
-      <edge id="289" source="FC Barcelona" target="GZ Evergrande" />
-      <edge id="290" source="FC Barcelona" target="Sevilla FC" />
-      <edge id="291" source="FC Barcelona" target="Sassuolo" />
-      <edge id="292" source="AS Roma" target="FC Barcelona" />
-      <edge id="293" source="AS Roma" target="AC Milan" />
-      <edge id="294" source="AS Roma" target="FC Basel" />
-      <edge id="295" source="AS Roma" target="Juventus" />
-      <edge id="296" source="AS Roma" target="Liverpool" />
-      <edge id="297" source="Fiorentina" target="Juventus" />
-      <edge id="298" source="Fiorentina" target="AC Milan" />
-      <edge id="299" source="AtlÃ©tico Madrid" target="Liverpool" />
-      <edge id="300" source="AtlÃ©tico Madrid" target="FC Barcelona" />
-      <edge id="301" source="AtlÃ©tico Madrid" target="Juventus" />
-      <edge id="302" source="AtlÃ©tico Madrid" target="Real Madrid" />
-      <edge id="303" source="Arsenal" target="FC Barcelona" />
-      <edge id="304" source="Arsenal" target="Liverpool" />
-      <edge id="305" source="Arsenal" target="Man Utd" />
-      <edge id="306" source="Arsenal" target="Juventus" />
-      <edge id="307" source="SSC Napoli" target="Juventus" />
-      <edge id="308" source="SSC Napoli" target="AC Milan" />
-      <edge id="309" source="Sassuolo" target="Juventus" />
-      <edge id="310" source="Sassuolo" target="FC Barcelona" />
-      <edge id="311" source="FC Basel" target="Chelsea" />
-      <edge id="312" source="FC Basel" target="Dynamo Kyiv" />
-      <edge id="313" source="FC Basel" target="FC Augsburg" />
-      <edge id="314" source="FC Basel" target="Real Betis" />
-      <edge id="315" source="FC Basel" target="1.FSV Mainz 05" />
-      <edge id="316" source="FC Basel" target="Dubai CSC" />
-      <edge id="317" source="FC Basel" target="Hamburger SV" />
-      <edge id="318" source="FC Basel" target="Sunderland" />
-      <edge id="319" source="FC Basel" target="FC Winterthur" />
-      <edge id="320" source="FC Basel" target="Bor. M'gladbach" />
-      <edge id="321" source="FC Basel" target="Hertha BSC" />
-      <edge id="322" source="FC Basel" target="VfB Stuttgart" />
-      <edge id="323" source="FC Basel" target="Fulham" />
-      <edge id="324" source="FC Basel" target="Stade Rennais" />
-      <edge id="325" source="FC Basel" target="TSG Hoffenheim" />
-      <edge id="326" source="FC Basel" target="Arsenal" />
-      <edge id="327" source="FC Basel" target="FC Schalke 04" />
-      <edge id="328" source="FC Basel" target="Aston Villa" />
-      <edge id="329" source="FC Basel" target="MalmÃ¶ FF" />
-      <edge id="330" source="FC Basel" target="Bor. Dortmund" />
-      <edge id="331" source="FC Basel" target="Sparta Praha" />
-      <edge id="332" source="FC Basel" target="Feyenoord" />
-      <edge id="333" source="FC Basel" target="VfL Wolfsburg" />
-      <edge id="334" source="FC Basel" target="Slo. Bratislava" />
-      <edge id="335" source="FC Basel" target="Heerenveen" />
-      <edge id="336" source="FC Basel" target="Southampton" />
-      <edge id="337" source="FC Basel" target="Sevilla FC" />
-      <edge id="338" source="VfL Wolfsburg" target="FC Basel" />
-      <edge id="339" source="VfL Wolfsburg" target="AC Milan" />
-      <edge id="340" source="Valencia" target="AC Milan" />
-      <edge id="341" source="Valencia" target="Liverpool" />
-      <edge id="342" source="Valencia" target="FC Barcelona" />
-      <edge id="343" source="Valencia" target="Juventus" />
-      <edge id="344" source="Everton" target="Man Utd" />
-      <edge id="345" source="Everton" target="AC Milan" />
-      <edge id="346" source="Everton" target="FC Barcelona" />
-      <edge id="347" source="SÃ£o Paulo" target="Real Madrid" />
-      <edge id="348" source="SÃ£o Paulo" target="FC Barcelona" />
-      <edge id="349" source="Celta de Vigo" target="Liverpool" />
-      <edge id="350" source="FC Empoli" target="AC Milan" />
-      <edge id="351" source="FC Empoli" target="Juventus" />
-      <edge id="352" source="MÃ¡laga CF" target="Real Madrid" />
-      <edge id="353" source="Sunderland" target="Liverpool" />
-      <edge id="354" source="Sunderland" target="AC Milan" />
-      <edge id="355" source="Spurs" target="Real Madrid" />
-      <edge id="356" source="Spurs" target="Liverpool" />
-      <edge id="357" source="Real Sociedad" target="Real Madrid" />
-      <edge id="358" source="Real Sociedad" target="FC Barcelona" />
-      <edge id="359" source="FC Schalke 04" target="Liverpool" />
-      <edge id="360" source="FC Schalke 04" target="Juventus" />
-      <edge id="361" source="Torino" target="Juventus" />
-      <edge id="362" source="Torino" target="AC Milan" />
-      <edge id="363" source="Torino" target="Man Utd" />
-      <edge id="364" source="Athletic" target="Juventus" />
-      <edge id="365" source="Athletic" target="Man Utd" />
-      <edge id="366" source="Villarreal" target="AC Milan" />
-      <edge id="367" source="Villarreal" target="FC Barcelona" />
-      <edge id="368" source="Villarreal" target="Man Utd" />
-      <edge id="369" source="Sevilla FC" target="Liverpool" />
-      <edge id="370" source="Sevilla FC" target="FC Barcelona" />
-      <edge id="371" source="Sevilla FC" target="AC Milan" />
-      <edge id="372" source="RB Salzburg" target="FC Basel" />
-      <edge id="373" source="Bra" target="Juventus" />
-      <edge id="374" source="Al-Jazira" target="FC Basel" />
-      <edge id="375" source="Genoa" target="AC Milan" />
-      <edge id="376" source="Genoa" target="Juventus" />
-      <edge id="377" source="Sporting CP" target="Liverpool" />
-      <edge id="378" source="Sporting CP" target="Man Utd" />
-      <edge id="379" source="Inter" target="AC Milan" />
-      <edge id="380" source="Inter" target="FC Basel" />
-      <edge id="381" source="Inter" target="Real Madrid" />
-      <edge id="382" source="Inter" target="Juventus" />
-      <edge id="383" source="Bolton" target="Liverpool" />
-      <edge id="384" source="FC Augsburg" target="Liverpool" />
-      <edge id="385" source="Real Betis" target="Real Madrid" />
-      <edge id="386" source="Spartak Moscow" target="FC Basel" />
-      <edge id="387" source="Arab Contr." target="FC Basel" />
-      <edge id="388" source="Spezia Calcio" target="Juventus" />
-      <edge id="389" source="RSC Anderlecht" target="FC Basel" />
-      <edge id="390" source="1.FSV Mainz 05" target="Liverpool" />
-      <edge id="391" source="1.FSV Mainz 05" target="FC Basel" />
-      <edge id="392" source="Hamburger SV" target="AC Milan" />
-      <edge id="393" source="QuindÃ­o" target="AC Milan" />
-      <edge id="394" source="Siena" target="Juventus" />
-      <edge id="395" source="Partizan" target="FC Basel" />
-      <edge id="396" source="FC Winterthur" target="FC Basel" />
-      <edge id="397" source="Levante" target="Real Madrid" />
-      <edge id="398" source="Benfica" target="Liverpool" />
-      <edge id="399" source="Benfica" target="Man Utd" />
-      <edge id="400" source="Benfica" target="FC Barcelona" />
-      <edge id="401" source="LOSC Lille" target="Liverpool" />
-      <edge id="402" source="Southampton" target="Liverpool" />
-      <edge id="403" source="Southampton" target="Man Utd" />
-      <edge id="404" source="Bor. Dortmund" target="Man Utd" />
-      <edge id="405" source="Bor. Dortmund" target="FC Barcelona" />
-      <edge id="406" source="Stoke City" target="Liverpool" />
-      <edge id="407" source="Stoke City" target="Man Utd" />
-      <edge id="408" source="Bor. M'gladbach" target="FC Barcelona" />
-      <edge id="409" source="AFC Ajax" target="Man Utd" />
-      <edge id="410" source="AFC Ajax" target="FC Barcelona" />
-      <edge id="411" source="FC Porto" target="Juventus" />
-      <edge id="412" source="FC Porto" target="Real Madrid" />
-      <edge id="413" source="FC Porto" target="AC Milan" />
-      <edge id="414" source="FC Porto" target="Man Utd" />
-      <edge id="415" source="Cruzeiro" target="Real Madrid" />
-      <edge id="416" source="Udinese Calcio" target="Juventus" />
-      <edge id="417" source="Udinese Calcio" target="AC Milan" />
-      <edge id="418" source="Udinese Calcio" target="FC Basel" />
-      <edge id="419" source="Burnley" target="Liverpool" />
-      <edge id="420" source="Sparta Praha" target="FC Basel" />
-      <edge id="421" source="Chievo Verona" target="AC Milan" />
-      <edge id="422" source="Parma" target="AC Milan" />
-      <edge id="423" source="Parma" target="Juventus" />
-      <edge id="424" source="Hellas Verona" target="Juventus" />
-      <edge id="425" source="Bologna" target="Juventus" />
-      <edge id="426" source="Dinamo Zagreb" target="Juventus" />
-      <edge id="427" source="Hertha BSC" target="FC Basel" />
-      <edge id="428" source="US Palermo" target="Juventus" />
-      <edge id="429" source="G. Bordeaux" target="FC Barcelona" />
-      <edge id="430" source="VfB Stuttgart" target="FC Basel" />
-      <edge id="431" source="Vojvodina" target="Man Utd" />
-      <edge id="432" source="Vicenza" target="Juventus" />
-      <edge id="433" source="Aston Villa" target="Liverpool" />
-      <edge id="434" source="GZ Evergrande" target="FC Barcelona" />
-      <edge id="435" source="Boca Juniors" target="Juventus" />
-      <edge id="436" source="Olympique Lyon" target="FC Barcelona" />
-      <edge id="437" source="Olympique Lyon" target="Real Madrid" />
-      <edge id="438" source="Olympique Lyon" target="FC Basel" />
-      <edge id="439" source="Red Star" target="Liverpool" />
-      <edge id="440" source="Marseille" target="Juventus" />
-      <edge id="441" source="Marseille" target="AC Milan" />
-      <edge id="442" source="PSV Eindhoven" target="Man Utd" />
-      <edge id="443" source="Charlton" target="Liverpool" />
-      <edge id="444" source="RCD Mallorca" target="Real Madrid" />
-      <edge id="445" source="TSG Hoffenheim" target="Liverpool" />
-      <edge id="446" source="Espanyol" target="Real Madrid" />
-      <edge id="447" source="Cagliari Calcio" target="Juventus" />
-      <edge id="448" source="Real Zaragoza" target="Real Madrid" />
-      <edge id="449" source="Sydney FC" target="FC Basel" />
-      <edge id="450" source="Shakhtar D." target="AC Milan" />
-      <edge id="451" source="Shakhtar D." target="Man Utd" />
-      <edge id="452" source="Feyenoord" target="FC Basel" />
-      <edge id="453" source="Pescara" target="FC Basel" />
-      <edge id="454" source="Pescara" target="AC Milan" />
-      <edge id="455" source="Pescara" target="Juventus" />
-      <edge id="456" source="Grasshoppers" target="FC Basel" />
-      <edge id="457" source="BSC Young Boys" target="FC Basel" />
-      <edge id="458" source="Monza" target="AC Milan" />
-      <edge id="459" source="NK Olimpija" target="FC Basel" />
-      <edge id="460" source="Avellino" target="AC Milan" />
-      <edge id="461" source="Odense BK" target="FC Basel" />
-      <edge id="462" source="Ternana" target="Juventus" />
-      <edge id="463" source="Virtus Lanciano" target="Juventus" />
-      <edge id="464" source="Envigado" target="Juventus" />
-      <edge id="465" source="Besiktas" target="AC Milan" />
-      <edge id="466" source="Newcastle" target="Liverpool" />
-      <edge id="467" source="Molde FK" target="FC Basel" />
-      <edge id="468" source="Lazio" target="AC Milan" />
-      <edge id="469" source="Lazio" target="Juventus" />
-      <edge id="470" source="River Plate" target="AC Milan" />
-      <edge id="471" source="LanÃºs" target="AC Milan" />
-      <edge id="472" source="E. Frankfurt" target="Real Madrid" />
-      <edge id="473" source="Ascoli" target="Juventus" />
-      <edge id="474" source="Como" target="Juventus" />
-      <edge id="475" source="Hull City" target="Liverpool" />
-      <edge id="476" source="Palmeiras" target="FC Barcelona" />
-      <edge id="477" source="Vitesse" target="FC Basel" />
-      <edge id="478" source="Chelsea U23" target="Liverpool" />
-      <edge id="479" source="Fluminense" target="FC Barcelona" />
-      <edge id="480" source="FC St. Gallen" target="FC Basel" />
-      <edge id="481" source="GrÃªmio" target="FC Barcelona" />
-      <edge id="482" source="Flamengo" target="Real Madrid" />
-      <edge id="483" source="Flamengo" target="AC Milan" />
-      <edge id="484" source="RB Leipzig" target="Liverpool" />
-      <edge id="485" source="Zorya Lugansk" target="Real Madrid" />
-      <edge id="486" source="CA Osasuna" target="Real Madrid" />
-      <edge id="487" source="Perugia" target="Juventus" />
-      <edge id="488" source="Toulouse" target="FC Barcelona" />
-      <edge id="489" source="FC Ingolstadt" target="FC Basel" />
+      <edge id="0" source="Ligue 1-Expenses" target="SC Amiens" />
+      <edge id="1" source="Ligue 1-Expenses" target="Paris SG" />
+      <edge id="2" source="Ligue 1-Expenses" target="Monaco" />
+      <edge id="3" source="Ligue 1-Expenses" target="Olympique Lyon" />
+      <edge id="4" source="Ligue 1-Expenses" target="Marseille" />
+      <edge id="5" source="Ligue 1-Expenses" target="LOSC Lille" />
+      <edge id="6" source="Ligue 1-Expenses" target="FC Metz" />
+      <edge id="7" source="Ligue 1-Expenses" target="FC Nantes" />
+      <edge id="8" source="Ligue 1-Expenses" target="Saint-Ãtienne" />
+      <edge id="9" source="Ligue 1-Expenses" target="Stade Rennais" />
+      <edge id="10" source="Ligue 1-Expenses" target="G. Bordeaux" />
+      <edge id="11" source="Ligue 1-Expenses" target="Guingamp" />
+      <edge id="12" source="Ligue 1-Expenses" target="R. Strasbourg" />
+      <edge id="13" source="Ligue 1-Expenses" target="NÃ®mes Olympique" />
+      <edge id="14" source="Ligue 1-Expenses" target="SM Caen" />
+      <edge id="15" source="Ligue 1-Expenses" target="OGC Nice" />
+      <edge id="16" source="Ligue 1-Expenses" target="AJ Auxerre" />
+      <edge id="17" source="Ligue 1-Expenses" target="Montpellier" />
+      <edge id="18" source="Ligue 1-Expenses" target="Toulouse" />
+      <edge id="19" source="Ligue 1-Expenses" target="Reims" />
+      <edge id="20" source="Ligue 1-Expenses" target="Dijon" />
+      <edge id="21" source="Ligue 1-Expenses" target="Troyes" />
+      <edge id="22" source="Ligue 1-Expenses" target="SCO Angers" />
+      <edge id="23" source="Ligue 1-Expenses" target="FC Lorient" />
+      <edge id="24" source="Ligue 1-Expenses" target="Lens" />
+      <edge id="25" source="Ligue 1-Expenses" target="AC Le Havre" />
+      <edge id="26" source="SC Amiens" target="Olympique Lyon" />
+      <edge id="27" source="SC Amiens" target="Ligue 1-Income" />
+      <edge id="28" source="SC Amiens" target="Guingamp" />
+      <edge id="29" source="Olympique Lyon" target="Ligue 1-Income" />
+      <edge id="30" source="Olympique Lyon" target="Monaco" />
+      <edge id="31" source="Olympique Lyon" target="OGC Nice" />
+      <edge id="32" source="Olympique Lyon" target="Stade Rennais" />
+      <edge id="33" source="Paris SG" target="Ligue 1-Income" />
+      <edge id="34" source="Paris SG" target="G. Bordeaux" />
+      <edge id="35" source="Paris SG" target="LOSC Lille" />
+      <edge id="36" source="Monaco" target="Ligue 1-Income" />
+      <edge id="37" source="Monaco" target="OGC Nice" />
+      <edge id="38" source="Monaco" target="Marseille" />
+      <edge id="39" source="Monaco" target="Toulouse" />
+      <edge id="40" source="Monaco" target="Paris SG" />
+      <edge id="41" source="G. Bordeaux" target="Ligue 1-Income" />
+      <edge id="42" source="G. Bordeaux" target="FC Nantes" />
+      <edge id="43" source="G. Bordeaux" target="SCO Angers" />
+      <edge id="44" source="G. Bordeaux" target="SM Caen" />
+      <edge id="45" source="G. Bordeaux" target="Dijon" />
+      <edge id="46" source="G. Bordeaux" target="Montpellier" />
+      <edge id="47" source="Marseille" target="Ligue 1-Income" />
+      <edge id="48" source="Marseille" target="Saint-Ãtienne" />
+      <edge id="49" source="LOSC Lille" target="Ligue 1-Income" />
+      <edge id="50" source="LOSC Lille" target="G. Bordeaux" />
+      <edge id="51" source="LOSC Lille" target="SCO Angers" />
+      <edge id="52" source="LOSC Lille" target="Olympique Lyon" />
+      <edge id="53" source="LOSC Lille" target="Monaco" />
+      <edge id="54" source="LOSC Lille" target="Dijon" />
+      <edge id="55" source="LOSC Lille" target="R. Strasbourg" />
+      <edge id="56" source="LOSC Lille" target="FC Metz" />
+      <edge id="57" source="Saint-Ãtienne" target="LOSC Lille" />
+      <edge id="58" source="Saint-Ãtienne" target="FC Lorient" />
+      <edge id="59" source="Saint-Ãtienne" target="Ligue 1-Income" />
+      <edge id="60" source="Saint-Ãtienne" target="Monaco" />
+      <edge id="61" source="Saint-Ãtienne" target="SCO Angers" />
+      <edge id="62" source="AC Le Havre" target="Olympique Lyon" />
+      <edge id="63" source="AC Le Havre" target="Stade Rennais" />
+      <edge id="64" source="SCO Angers" target="LOSC Lille" />
+      <edge id="65" source="SCO Angers" target="FC Lorient" />
+      <edge id="66" source="SCO Angers" target="Ligue 1-Income" />
+      <edge id="67" source="SCO Angers" target="SM Caen" />
+      <edge id="68" source="Lens" target="Stade Rennais" />
+      <edge id="69" source="Lens" target="Ligue 1-Income" />
+      <edge id="70" source="Stade Rennais" target="Montpellier" />
+      <edge id="71" source="Stade Rennais" target="Monaco" />
+      <edge id="72" source="Stade Rennais" target="Dijon" />
+      <edge id="73" source="Stade Rennais" target="Ligue 1-Income" />
+      <edge id="74" source="Stade Rennais" target="Toulouse" />
+      <edge id="75" source="OGC Nice" target="Ligue 1-Income" />
+      <edge id="76" source="FC Nantes" target="Ligue 1-Income" />
+      <edge id="77" source="FC Nantes" target="SM Caen" />
+      <edge id="78" source="FC Metz" target="Stade Rennais" />
+      <edge id="79" source="FC Metz" target="Ligue 1-Income" />
+      <edge id="80" source="FC Metz" target="Toulouse" />
+      <edge id="81" source="FC Metz" target="Montpellier" />
+      <edge id="82" source="Montpellier" target="Ligue 1-Income" />
+      <edge id="83" source="Montpellier" target="SM Caen" />
+      <edge id="84" source="Toulouse" target="Ligue 1-Income" />
+      <edge id="85" source="Dijon" target="OGC Nice" />
+      <edge id="86" source="Dijon" target="Saint-Ãtienne" />
+      <edge id="87" source="Dijon" target="Toulouse" />
+      <edge id="88" source="AS Nancy" target="Stade Rennais" />
+      <edge id="89" source="FC Lorient" target="Ligue 1-Income" />
+      <edge id="90" source="FC Lorient" target="Montpellier" />
+      <edge id="91" source="FC Lorient" target="Dijon" />
+      <edge id="92" source="FC Lorient" target="AJ Auxerre" />
+      <edge id="93" source="FC Lorient" target="NÃ®mes Olympique" />
+      <edge id="94" source="Guingamp" target="Ligue 1-Income" />
+      <edge id="95" source="Guingamp" target="G. Bordeaux" />
+      <edge id="96" source="Guingamp" target="SM Caen" />
+      <edge id="97" source="Guingamp" target="Stade Rennais" />
+      <edge id="98" source="SM Caen" target="OGC Nice" />
+      <edge id="99" source="SM Caen" target="Ligue 1-Income" />
+      <edge id="100" source="Valenciennes FC" target="SCO Angers" />
+      <edge id="101" source="Valenciennes FC" target="OGC Nice" />
+      <edge id="102" source="Valenciennes FC" target="Guingamp" />
+      <edge id="103" source="R. Strasbourg" target="OGC Nice" />
+      <edge id="104" source="R. Strasbourg" target="Monaco" />
+      <edge id="105" source="SC Bastia" target="SM Caen" />
+      <edge id="106" source="SC Bastia" target="Ligue 1-Income" />
+      <edge id="107" source="SC Bastia" target="SCO Angers" />
+      <edge id="108" source="G. Ajaccio" target="Ligue 1-Income" />
+      <edge id="109" source="FC Sochaux" target="Guingamp" />
+      <edge id="110" source="Reims" target="Stade Rennais" />
+      <edge id="111" source="Reims" target="Ligue 1-Income" />
+      <edge id="112" source="AJ Auxerre" target="FC Lorient" />
+      <edge id="113" source="AJ Auxerre" target="Ligue 1-Income" />
+      <edge id="114" source="AC Ajaccio" target="Lens" />
+      <edge id="115" source="Troyes" target="OGC Nice" />
+      <edge id="116" source="Troyes" target="Monaco" />
+      <edge id="117" source="Troyes" target="Reims" />
+      <edge id="118" source="Troyes" target="FC Nantes" />
+      <edge id="119" source="Troyes" target="AJ Auxerre" />
+      <edge id="120" source="Stade Brest 29" target="R. Strasbourg" />
+      <edge id="121" source="Stade Brest 29" target="Olympique Lyon" />
     </edges>
   </graph>
 </gexf>
