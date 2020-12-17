@@ -37,9 +37,6 @@ class DataPreparer:
         dfTrans.loc[dfTrans['from_club_id'] == -2, 'from_club_name'] = 'In'
         dfTrans.loc[~dfTrans['to_club_id'].isin(dfUniqueClubs['club_id']), 'to_club_id'] = -1
         dfTrans.loc[dfTrans['to_club_id'] == -1, 'to_club_name'] = 'Out'
-
-
-
         dfLeagueKPI = dfClubs.groupby(['club_id', 'club_name']).agg(
             noOfLeagueTitles = pd.NamedAgg(column='is_champion', aggfunc='sum'),
             noOfCupTitles = pd.NamedAgg(column='is_cup_winner', aggfunc='sum'),
@@ -52,19 +49,24 @@ class DataPreparer:
                 earnings = pd.NamedAgg(column='fee', aggfunc='sum')
                 )
         dfTransferInKPI = dfTrans.groupby(['to_club_id', 'to_club_name']).agg(
-                NoOutTransfers = pd.NamedAgg(column='to_club_id', aggfunc='count'),
+                NoInTransfers = pd.NamedAgg(column='to_club_id', aggfunc='count'),
                 expenses = pd.NamedAgg(column='fee', aggfunc='sum')
                 )
 
         dfUniqueClubs = pd.merge(left=dfUniqueClubs, right=dfTransferOutKPI, how='left', left_on='club_id', right_on='from_club_id')
         dfUniqueClubs = pd.merge(left=dfUniqueClubs, right=dfTransferInKPI, how='left', left_on='club_id', right_on='to_club_id')
         dfUniqueClubs = pd.merge(left=dfUniqueClubs, right=dfLeagueKPI, how='left', left_on='club_id', right_on='club_id')
+        dfUniqueClubs['Ausgaben / 1000'] = dfUniqueClubs['expenses'] / 1000
+        dfUniqueClubs['Ausgaben / NoInTransfers'] = dfUniqueClubs['expenses'] / dfUniqueClubs['NoInTransfers']
+
         dfTransClean = dfTrans[['to_club_id', 'to_club_name', 'from_club_id', 'from_club_name']]
+
         dfTransClean = dfTransClean[(dfTransClean['to_club_id'] != -1) | (dfTransClean['from_club_id'] != -2)]
         dfTransClean.to_csv('transfers.csv', index=False, encoding="iso-8859-15", header=('Target', 'Zile Name','Source', 'Ursprung Name'))
         dfUniqueClubs.to_csv('nodes.csv', index=False, encoding="iso-8859-15", header=('Id', 'Label','Eingehende Trans.', 'Einnahmen'
                                                                                        , 'Ausgehende Trans.', 'Ausgaben', 'AVG Rang',
-                                                                                       'Median Rang', 'Cup', 'Liga'))
+                                                                                       'Median Rang', 'Cup', 'Liga','Ausgaben / 1000'
+                                                                                       ,'Ausgaben / NoInTransfers'))
 
 
 
