@@ -1,5 +1,6 @@
 import pandas as pd
-
+import csv
+import numpy as np
 
 class DataPreparer:
     def GetClubToClubTransferExpense(self, league, season):
@@ -10,7 +11,6 @@ class DataPreparer:
         idLeague = dfLeague[dfLeague["name"] == league]["id"].iloc[0]
         clubIds = dfClubs[dfClubs["league_id"] == int(idLeague)]["club_id"].unique()
         dfTrans = dfTrans[dfTrans["to_club_id"].isin(clubIds) | (dfTrans["from_club_id"].isin(clubIds))]
-
         fromExp = "{0}-Expenses".format(league)
         toIncome = "{0}-Income".format(league)
 
@@ -21,8 +21,52 @@ class DataPreparer:
         transferExpenseByClub2 = dfTrans.groupby(["from_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
         transferExpenseByClub[fromExp] = transferExpenseByClub2[fromExp]
         df = dfTrans[["from_club_name", "to_club_name"]]
-        #df.to_csv("C:\\Projects\\Python\\SocialInteractions\\data\my.csv", sep=";")
         return df, transferExpenseByClub
+
+    def GetClubToClubTransferExpense_CSV(self, league, season):
+        dfTrans = self.__cleanLoadTransfers()
+        dfTrans = self.__filterSeasons(dfTrans, 0, season)
+        dfLeague = pd.read_csv("./data/dict_leagues.csv", sep=";", encoding="iso-8859-15")
+        dfClubs = pd.read_csv("./data/clubs_in_leagues.csv", sep=";", encoding="iso-8859-15")
+        idLeague = dfLeague[dfLeague["name"] == league]["id"].iloc[0]
+        dfClubs = self.__filterSeasonClubs(dfClubs, season, idLeague)
+        dfUniqueClubs = dfClubs[['club_id', 'club_name']].drop_duplicates()
+        dfInOut = pd.DataFrame(columns=['club_id', 'club_name'], data=[[-1, 'Out'], [-2, 'In']])
+        dfUniqueClubs = dfUniqueClubs.append(dfInOut)
+        dfTrans.loc[~dfTrans['from_club_id'].isin(dfUniqueClubs['club_id']), 'from_club_id'] = -2
+        dfTrans.loc[dfTrans['from_club_id'] == -2, 'from_club_name'] = 'In'
+        dfTrans.loc[~dfTrans['to_club_id'].isin(dfUniqueClubs['club_id']), 'to_club_id'] = -1
+        dfTrans.loc[dfTrans['to_club_id'] == -1, 'to_club_name'] = 'Out'
+
+
+
+        dfLeagueKPI = dfClubs.groupby(['club_id', 'club_name']).agg(
+            noOfLeagueTitles = pd.NamedAgg(column='is_champion', aggfunc='sum'),
+            noOfCupTitles = pd.NamedAgg(column='is_cup_winner', aggfunc='sum'),
+            medianPlace = pd.NamedAgg(column='place', aggfunc=np.median),
+            avgPlace = pd.NamedAgg(column='place', aggfunc=np.average)
+
+        )
+        dfTransferOutKPI = dfTrans.groupby(['from_club_id', 'from_club_name']).agg(
+                NoOutTransfers = pd.NamedAgg(column='from_club_id', aggfunc='count'),
+                earnings = pd.NamedAgg(column='fee', aggfunc='sum')
+                )
+        dfTransferInKPI = dfTrans.groupby(['to_club_id', 'to_club_name']).agg(
+                NoOutTransfers = pd.NamedAgg(column='to_club_id', aggfunc='count'),
+                expenses = pd.NamedAgg(column='fee', aggfunc='sum')
+                )
+
+        dfUniqueClubs = pd.merge(left=dfUniqueClubs, right=dfTransferOutKPI, how='left', left_on='club_id', right_on='from_club_id')
+        dfUniqueClubs = pd.merge(left=dfUniqueClubs, right=dfTransferInKPI, how='left', left_on='club_id', right_on='to_club_id')
+        dfUniqueClubs = pd.merge(left=dfUniqueClubs, right=dfLeagueKPI, how='left', left_on='club_id', right_on='club_id')
+        dfTransClean = dfTrans[['to_club_id', 'to_club_name', 'from_club_id', 'from_club_name']]
+        dfTransClean = dfTransClean[(dfTransClean['to_club_id'] != -1) | (dfTransClean['from_club_id'] != -2)]
+        dfTransClean.to_csv('transfers.csv', index=False, encoding="iso-8859-15", header=('Target', 'Zile Name','Source', 'Ursprung Name'))
+        dfUniqueClubs.to_csv('nodes.csv', index=False, encoding="iso-8859-15", header=('Id', 'Label','Eingehende Trans.', 'Einnahmen'
+                                                                                       , 'Ausgehende Trans.', 'Ausgaben', 'AVG Rang',
+                                                                                       'Median Rang', 'Cup', 'Liga'))
+
+
 
     def __GetThickness(self, df, row):
         toClub = row["to_club_name"]
@@ -81,6 +125,8 @@ class DataPreparer:
     def __filterSeasons(self, df, fee, season):
         df = df[df["fee"].notna()]
         df = df.drop(df[df["fee"] <= fee].index)
+        df = df[df['from_club_id'].notna()]
+        df = df[df['to_club_id'].notna()]
 
         if season != None:
             seasonFrom = season.split("-")[0]
@@ -92,6 +138,15 @@ class DataPreparer:
         print("shape of dataframe: ", df.shape)
 
         return df
+    def __filterSeasonClubs(self, df, season, league):
+        if season != None:
+            seasonFrom = season.split("-")[0]
+            seasonTo = season.split("-")[1]
+            df = df[df["season"] >= int(seasonFrom)]
+            df = df[df["season"] <= int(seasonTo)]
+            df = df.loc[df['league_id'] == league]
+            print("filters season clubs -> df shape: ", df.shape)
+        return df
 
     def __cleanLoadTransfers(self):
         transfers = "./data/transfers.csv"
@@ -100,6 +155,7 @@ class DataPreparer:
         df["from_club_name"] = df["from_club_name"].apply(lambda x: x.strip())
         df = df.drop(df[df["to_club_name"] == "Unknown"].index)
         df = df.drop(df[df["to_club_name"] == "Retired"].index)
+        df.rename(columns=lambda x: x.strip())
 
         return df
 

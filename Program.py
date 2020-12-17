@@ -19,6 +19,11 @@ print("choosen options:\n"
 preparer = DataPreparer()
 df, transferByClub = preparer.GetClubToClubTransferExpense(league, season)
 
+preparer.GetClubToClubTransferExpense_CSV(league, season)
+#
+# print(df2)
+# print(trans)
+
 drawer = NetworkDrawer()
 drawer.Draw(df, transferByClub)
 
@@ -33,7 +38,7 @@ if False:
 
     for club in clubToCompare:
         value = transferByClub[club] if club in transferByClub else "NA"
-        print(f"value for {club}: {value}")
+        print("value for {club}: {value}")
 
     drawer = NetworkDrawer()
     drawer.Draw(df, clubToCompare, transferByClub)

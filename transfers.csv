@@ -1,0 +1,401 @@
+Target,Zile Name,Source,Ursprung Name
+11,Bor. Dortmund,-2,In
+11,Bor. Dortmund,-2,In
+8,VfB Stuttgart,-2,In
+2,Bay. Leverkusen,-2,In
+2,Bay. Leverkusen,-2,In
+1,Bayern Munich ,-2,In
+3,Hamburger SV,-2,In
+-1,Out,2,Bay. Leverkusen
+-1,Out,6,Hertha BSC
+23,1.FC Nuremberg,1,Bayern Munich
+17,Arm. Bielefeld,-2,In
+11,Bor. Dortmund,-2,In
+9,Werder Bremen,-2,In
+9,Werder Bremen,3,Hamburger SV
+12,SC Freiburg,25,Hannover 96
+26,1.FSV Mainz 05,22,Bor. M'gladbach
+4,1860 Munich,-2,In
+-1,Out,12,SC Freiburg
+-1,Out,9,Werder Bremen
+17,Arm. Bielefeld,25,Hannover 96
+13,FC Schalke 04,17,Arm. Bielefeld
+-1,Out,2,Bay. Leverkusen
+26,1.FSV Mainz 05,-2,In
+2,Bay. Leverkusen,-2,In
+3,Hamburger SV,11,Bor. Dortmund
+-1,Out,3,Hamburger SV
+3,Hamburger SV,-2,In
+3,Hamburger SV,13,FC Schalke 04
+21,VfL Bochum,-2,In
+25,Hannover 96,-2,In
+22,Bor. M'gladbach,-2,In
+8,VfB Stuttgart,17,Arm. Bielefeld
+9,Werder Bremen,-2,In
+20,Energie Cottbus,-2,In
+9,Werder Bremen,-2,In
+8,VfB Stuttgart,10,Unterhaching
+12,SC Freiburg,-2,In
+-1,Out,20,Energie Cottbus
+10,Unterhaching,1,Bayern Munich
+10,Unterhaching,-2,In
+19,1. FC Köln,-2,In
+25,Hannover 96,-2,In
+5,1.FC K'lautern,-2,In
+17,Arm. Bielefeld,-2,In
+4,1860 Munich,2,Bay. Leverkusen
+18,MSV Duisburg,-2,In
+3,Hamburger SV,-2,In
+21,VfL Bochum,-2,In
+10,Unterhaching,15,Hansa Rostock
+5,1.FC K'lautern,3,Hamburger SV
+1,Bayern Munich ,5,1.FC K'lautern
+11,Bor. Dortmund,-2,In
+7,VfL Wolfsburg,-2,In
+2,Bay. Leverkusen,6,Hertha BSC
+11,Bor. Dortmund,-2,In
+7,VfL Wolfsburg,-2,In
+8,VfB Stuttgart,-2,In
+6,Hertha BSC,-2,In
+1,Bayern Munich ,9,Werder Bremen
+5,1.FC K'lautern,-2,In
+11,Bor. Dortmund,-2,In
+11,Bor. Dortmund,12,SC Freiburg
+19,1. FC Köln,-2,In
+2,Bay. Leverkusen,-2,In
+22,Bor. M'gladbach,-2,In
+2,Bay. Leverkusen,21,VfL Bochum
+5,1.FC K'lautern,-2,In
+3,Hamburger SV,-2,In
+19,1. FC Köln,-2,In
+23,1.FC Nuremberg,-2,In
+7,VfL Wolfsburg,-2,In
+9,Werder Bremen,-2,In
+11,Bor. Dortmund,-2,In
+6,Hertha BSC,-2,In
+24,FC St. Pauli,-2,In
+3,Hamburger SV,-2,In
+1,Bayern Munich ,2,Bay. Leverkusen
+11,Bor. Dortmund,-2,In
+17,Arm. Bielefeld,9,Werder Bremen
+7,VfL Wolfsburg,-2,In
+7,VfL Wolfsburg,18,MSV Duisburg
+18,MSV Duisburg,6,Hertha BSC
+-1,Out,23,1.FC Nuremberg
+9,Werder Bremen,8,VfB Stuttgart
+17,Arm. Bielefeld,8,VfB Stuttgart
+22,Bor. M'gladbach,-2,In
+13,FC Schalke 04,15,Hansa Rostock
+20,Energie Cottbus,-2,In
+-1,Out,4,1860 Munich
+15,Hansa Rostock,13,FC Schalke 04
+11,Bor. Dortmund,-2,In
+-1,Out,11,Bor. Dortmund
+-1,Out,11,Bor. Dortmund
+20,Energie Cottbus,-2,In
+3,Hamburger SV,-2,In
+1,Bayern Munich ,3,Hamburger SV
+3,Hamburger SV,-2,In
+13,FC Schalke 04,-2,In
+7,VfL Wolfsburg,-2,In
+7,VfL Wolfsburg,-2,In
+-1,Out,19,1. FC Köln
+14,E. Frankfurt,-2,In
+22,Bor. M'gladbach,-2,In
+23,1.FC Nuremberg,6,Hertha BSC
+18,MSV Duisburg,-2,In
+25,Hannover 96,-2,In
+7,VfL Wolfsburg,-2,In
+-1,Out,13,FC Schalke 04
+-1,Out,5,1.FC K'lautern
+22,Bor. M'gladbach,-2,In
+4,1860 Munich,17,Arm. Bielefeld
+15,Hansa Rostock,3,Hamburger SV
+1,Bayern Munich ,2,Bay. Leverkusen
+1,Bayern Munich ,2,Bay. Leverkusen
+2,Bay. Leverkusen,-2,In
+13,FC Schalke 04,-2,In
+11,Bor. Dortmund,9,Werder Bremen
+2,Bay. Leverkusen,-2,In
+8,VfB Stuttgart,-2,In
+6,Hertha BSC,17,Arm. Bielefeld
+2,Bay. Leverkusen,-2,In
+2,Bay. Leverkusen,19,1. FC Köln
+9,Werder Bremen,26,1.FSV Mainz 05
+13,FC Schalke 04,9,Werder Bremen
+22,Bor. M'gladbach,-2,In
+1,Bayern Munich ,6,Hertha BSC
+19,1. FC Köln,11,Bor. Dortmund
+-1,Out,9,Werder Bremen
+9,Werder Bremen,-2,In
+13,FC Schalke 04,-2,In
+25,Hannover 96,26,1.FSV Mainz 05
+25,Hannover 96,-2,In
+3,Hamburger SV,-2,In
+2,Bay. Leverkusen,-2,In
+13,FC Schalke 04,-2,In
+15,Hansa Rostock,-2,In
+5,1.FC K'lautern,-2,In
+7,VfL Wolfsburg,-2,In
+25,Hannover 96,-2,In
+26,1.FSV Mainz 05,22,Bor. M'gladbach
+22,Bor. M'gladbach,-2,In
+7,VfL Wolfsburg,1,Bayern Munich
+2,Bay. Leverkusen,4,1860 Munich
+6,Hertha BSC,-2,In
+25,Hannover 96,10,Unterhaching
+-1,Out,17,Arm. Bielefeld
+5,1.FC K'lautern,-2,In
+2,Bay. Leverkusen,25,Hannover 96
+19,1. FC Köln,6,Hertha BSC
+26,1.FSV Mainz 05,25,Hannover 96
+2,Bay. Leverkusen,14,E. Frankfurt
+4,1860 Munich,-2,In
+9,Werder Bremen,2,Bay. Leverkusen
+5,1.FC K'lautern,19,1. FC Köln
+26,1.FSV Mainz 05,-2,In
+22,Bor. M'gladbach,-2,In
+7,VfL Wolfsburg,-2,In
+-1,Out,1,Bayern Munich
+-1,Out,12,SC Freiburg
+19,1. FC Köln,-2,In
+1,Bayern Munich ,-2,In
+7,VfL Wolfsburg,-2,In
+8,VfB Stuttgart,1,Bayern Munich
+1,Bayern Munich ,-2,In
+3,Hamburger SV,23,1.FC Nuremberg
+9,Werder Bremen,-2,In
+14,E. Frankfurt,8,VfB Stuttgart
+7,VfL Wolfsburg,-2,In
+7,VfL Wolfsburg,4,1860 Munich
+23,1.FC Nuremberg,-2,In
+-1,Out,1,Bayern Munich
+13,FC Schalke 04,-2,In
+3,Hamburger SV,17,Arm. Bielefeld
+17,Arm. Bielefeld,-2,In
+5,1.FC K'lautern,-2,In
+-1,Out,11,Bor. Dortmund
+8,VfB Stuttgart,-2,In
+19,1. FC Köln,1,Bayern Munich
+-1,Out,13,FC Schalke 04
+22,Bor. M'gladbach,-2,In
+-1,Out,25,Hannover 96
+23,1.FC Nuremberg,-2,In
+-1,Out,13,FC Schalke 04
+25,Hannover 96,17,Arm. Bielefeld
+25,Hannover 96,-2,In
+17,Arm. Bielefeld,-2,In
+5,1.FC K'lautern,-2,In
+7,VfL Wolfsburg,20,Energie Cottbus
+21,VfL Bochum,-2,In
+22,Bor. M'gladbach,-2,In
+4,1860 Munich,-2,In
+25,Hannover 96,21,VfL Bochum
+11,Bor. Dortmund,-2,In
+15,Hansa Rostock,9,Werder Bremen
+18,MSV Duisburg,22,Bor. M'gladbach
+3,Hamburger SV,-2,In
+11,Bor. Dortmund,-2,In
+-1,Out,21,VfL Bochum
+5,1.FC K'lautern,8,VfB Stuttgart
+-1,Out,14,E. Frankfurt
+22,Bor. M'gladbach,-2,In
+1,Bayern Munich ,7,VfL Wolfsburg
+-1,Out,23,1.FC Nuremberg
+5,1.FC K'lautern,-2,In
+-1,Out,24,FC St. Pauli
+7,VfL Wolfsburg,-2,In
+7,VfL Wolfsburg,-2,In
+8,VfB Stuttgart,-2,In
+25,Hannover 96,-2,In
+4,1860 Munich,11,Bor. Dortmund
+13,FC Schalke 04,8,VfB Stuttgart
+1,Bayern Munich ,2,Bay. Leverkusen
+9,Werder Bremen,5,1.FC K'lautern
+-1,Out,3,Hamburger SV
+1,Bayern Munich ,11,Bor. Dortmund
+-1,Out,6,Hertha BSC
+6,Hertha BSC,-2,In
+3,Hamburger SV,-2,In
+3,Hamburger SV,-2,In
+25,Hannover 96,2,Bay. Leverkusen
+2,Bay. Leverkusen,-2,In
+9,Werder Bremen,-2,In
+26,1.FSV Mainz 05,2,Bay. Leverkusen
+3,Hamburger SV,4,1860 Munich
+3,Hamburger SV,1,Bayern Munich
+26,1.FSV Mainz 05,9,Werder Bremen
+8,VfB Stuttgart,4,1860 Munich
+-1,Out,22,Bor. M'gladbach
+22,Bor. M'gladbach,-2,In
+23,1.FC Nuremberg,-2,In
+2,Bay. Leverkusen,21,VfL Bochum
+6,Hertha BSC,-2,In
+7,VfL Wolfsburg,-2,In
+9,Werder Bremen,-2,In
+9,Werder Bremen,-2,In
+-1,Out,13,FC Schalke 04
+14,E. Frankfurt,-2,In
+-1,Out,2,Bay. Leverkusen
+7,VfL Wolfsburg,-2,In
+7,VfL Wolfsburg,-2,In
+-1,Out,9,Werder Bremen
+7,VfL Wolfsburg,2,Bay. Leverkusen
+-1,Out,25,Hannover 96
+22,Bor. M'gladbach,-2,In
+-1,Out,6,Hertha BSC
+9,Werder Bremen,-2,In
+-1,Out,25,Hannover 96
+25,Hannover 96,-2,In
+-1,Out,3,Hamburger SV
+1,Bayern Munich ,21,VfL Bochum
+19,1. FC Köln,1,Bayern Munich
+26,1.FSV Mainz 05,20,Energie Cottbus
+3,Hamburger SV,-2,In
+22,Bor. M'gladbach,-2,In
+13,FC Schalke 04,26,1.FSV Mainz 05
+17,Arm. Bielefeld,-2,In
+14,E. Frankfurt,-2,In
+1,Bayern Munich ,4,1860 Munich
+-1,Out,25,Hannover 96
+3,Hamburger SV,-2,In
+17,Arm. Bielefeld,21,VfL Bochum
+-1,Out,22,Bor. M'gladbach
+20,Energie Cottbus,-2,In
+12,SC Freiburg,-2,In
+8,VfB Stuttgart,-2,In
+-1,Out,9,Werder Bremen
+9,Werder Bremen,-2,In
+17,Arm. Bielefeld,-2,In
+22,Bor. M'gladbach,-2,In
+23,1.FC Nuremberg,-2,In
+-1,Out,22,Bor. M'gladbach
+-1,Out,20,Energie Cottbus
+12,SC Freiburg,-2,In
+7,VfL Wolfsburg,5,1.FC K'lautern
+20,Energie Cottbus,-2,In
+21,VfL Bochum,2,Bay. Leverkusen
+21,VfL Bochum,-2,In
+19,1. FC Köln,3,Hamburger SV
+19,1. FC Köln,-2,In
+-1,Out,23,1.FC Nuremberg
+22,Bor. M'gladbach,3,Hamburger SV
+21,VfL Bochum,-2,In
+9,Werder Bremen,-2,In
+23,1.FC Nuremberg,-2,In
+5,1.FC K'lautern,12,SC Freiburg
+-1,Out,4,1860 Munich
+26,1.FSV Mainz 05,-2,In
+25,Hannover 96,-2,In
+-1,Out,7,VfL Wolfsburg
+-1,Out,11,Bor. Dortmund
+-1,Out,8,VfB Stuttgart
+3,Hamburger SV,-2,In
+3,Hamburger SV,-2,In
+13,FC Schalke 04,-2,In
+-1,Out,7,VfL Wolfsburg
+13,FC Schalke 04,8,VfB Stuttgart
+9,Werder Bremen,1,Bayern Munich
+9,Werder Bremen,-2,In
+8,VfB Stuttgart,-2,In
+19,1. FC Köln,-2,In
+23,1.FC Nuremberg,-2,In
+1,Bayern Munich ,9,Werder Bremen
+19,1. FC Köln,7,VfL Wolfsburg
+23,1.FC Nuremberg,-2,In
+25,Hannover 96,26,1.FSV Mainz 05
+-1,Out,2,Bay. Leverkusen
+14,E. Frankfurt,5,1.FC K'lautern
+7,VfL Wolfsburg,13,FC Schalke 04
+2,Bay. Leverkusen,-2,In
+5,1.FC K'lautern,-2,In
+-1,Out,8,VfB Stuttgart
+14,E. Frankfurt,3,Hamburger SV
+8,VfB Stuttgart,-2,In
+3,Hamburger SV,-2,In
+22,Bor. M'gladbach,-2,In
+9,Werder Bremen,-2,In
+6,Hertha BSC,-2,In
+17,Arm. Bielefeld,-2,In
+23,1.FC Nuremberg,-2,In
+26,1.FSV Mainz 05,9,Werder Bremen
+9,Werder Bremen,-2,In
+-1,Out,13,FC Schalke 04
+3,Hamburger SV,-2,In
+-1,Out,13,FC Schalke 04
+9,Werder Bremen,-2,In
+11,Bor. Dortmund,-2,In
+9,Werder Bremen,17,Arm. Bielefeld
+13,FC Schalke 04,-2,In
+3,Hamburger SV,-2,In
+2,Bay. Leverkusen,-2,In
+22,Bor. M'gladbach,-2,In
+19,1. FC Köln,8,VfB Stuttgart
+8,VfB Stuttgart,-2,In
+25,Hannover 96,7,VfL Wolfsburg
+-1,Out,13,FC Schalke 04
+-1,Out,3,Hamburger SV
+-1,Out,2,Bay. Leverkusen
+14,E. Frankfurt,-2,In
+25,Hannover 96,1,Bayern Munich
+4,1860 Munich,-2,In
+-1,Out,3,Hamburger SV
+-1,Out,22,Bor. M'gladbach
+21,VfL Bochum,-2,In
+1,Bayern Munich ,-2,In
+19,1. FC Köln,-2,In
+17,Arm. Bielefeld,-2,In
+5,1.FC K'lautern,-2,In
+22,Bor. M'gladbach,-2,In
+18,MSV Duisburg,-2,In
+17,Arm. Bielefeld,-2,In
+7,VfL Wolfsburg,-2,In
+19,1. FC Köln,21,VfL Bochum
+11,Bor. Dortmund,-2,In
+18,MSV Duisburg,8,VfB Stuttgart
+11,Bor. Dortmund,17,Arm. Bielefeld
+7,VfL Wolfsburg,-2,In
+18,MSV Duisburg,-2,In
+2,Bay. Leverkusen,-2,In
+19,1. FC Köln,20,Energie Cottbus
+-1,Out,9,Werder Bremen
+8,VfB Stuttgart,2,Bay. Leverkusen
+25,Hannover 96,-2,In
+15,Hansa Rostock,-2,In
+19,1. FC Köln,8,VfB Stuttgart
+11,Bor. Dortmund,-2,In
+17,Arm. Bielefeld,-2,In
+4,1860 Munich,-2,In
+26,1.FSV Mainz 05,-2,In
+19,1. FC Köln,3,Hamburger SV
+22,Bor. M'gladbach,-2,In
+14,E. Frankfurt,-2,In
+7,VfL Wolfsburg,-2,In
+-1,Out,11,Bor. Dortmund
+5,1.FC K'lautern,-2,In
+14,E. Frankfurt,21,VfL Bochum
+19,1. FC Köln,-2,In
+7,VfL Wolfsburg,17,Arm. Bielefeld
+23,1.FC Nuremberg,-2,In
+17,Arm. Bielefeld,-2,In
+17,Arm. Bielefeld,1,Bayern Munich
+-1,Out,7,VfL Wolfsburg
+-1,Out,19,1. FC Köln
+19,1. FC Köln,-2,In
+2,Bay. Leverkusen,-2,In
+2,Bay. Leverkusen,-2,In
+3,Hamburger SV,-2,In
+-1,Out,19,1. FC Köln
+5,1.FC K'lautern,-2,In
+-1,Out,13,FC Schalke 04
+21,VfL Bochum,22,Bor. M'gladbach
+12,SC Freiburg,-2,In
+6,Hertha BSC,12,SC Freiburg
+17,Arm. Bielefeld,-2,In
+22,Bor. M'gladbach,-2,In
+25,Hannover 96,13,FC Schalke 04
+-1,Out,23,1.FC Nuremberg
+19,1. FC Köln,8,VfB Stuttgart
+2,Bay. Leverkusen,-2,In
+-1,Out,15,Hansa Rostock
+7,VfL Wolfsburg,-2,In
