@@ -32,20 +32,8 @@ class NetworkDrawer:
         coords = nx.kamada_kawai_layout(clubRelations)
         coords[keyIncome] = [2, 0.6]
         coords[keyExpense] = [2, -0.6]
-        print(coords)
-
-        #fig, ax = plt.subplots(figsize=(12, 5))
-
-        #nx.draw_networkx_nodes(clubRelations,  pos=coords, ax=ax, label=True)#node_size=sizes,
-        #nx.draw_networkx_edges(clubRelations, pos=coords, ax=ax) #width=durations,
-        #_ = nx.draw_networkx_labels(clubRelations, coords, labels, ax=ax)
-
-        #nx.draw_networkx_nodes(clubRelations, pos=coords, node_size=sizes)
-        #nx.draw_networkx_edges(clubRelations, pos=coords, width=durations)
 
         nx.draw(clubRelations, node_color=nodeColor, with_labels=True, pos=coords, node_size=sizes)
-        #nx.write_gexf(clubRelations, "test.gexf")
-
         edges = clubRelations.edges
         dict = {}
         for edge in edges:
@@ -55,31 +43,6 @@ class NetworkDrawer:
             if count != 1:
                 dict.update({edge: count})
 
-        # todo: to be able to compare, transfer sum in relation to number of transfer
-        # todo: colors of only one edges to grey
         nx.draw_networkx_edge_labels(clubRelations, coords, edge_labels=dict, font_size=8, font_color='red')
 
         plt.show()
-
-
-        if False:
-            widths = nx.get_edge_attributes(clubRelations, edgeAttr)
-            nodelist = clubRelations.nodes()
-
-            plt.figure(figsize=(12, 8))
-
-            pos = nx.shell_layout(clubRelations)
-            nx.draw_networkx_nodes(clubRelations, coords,
-                                   nodelist=nodelist,
-                                   node_size=sizes,
-                                   node_color='black',
-                                   alpha=0.7)
-            nx.draw_networkx_edges(clubRelations, coords,
-                                   edgelist=widths.keys(),
-                                   width=list(widths.values()),
-                                   edge_color='black',
-                                   alpha=0.6)
-            nx.draw_networkx_labels(clubRelations, pos=coords,
-                                    labels=dict(zip(nodelist, nodelist)),
-                                    font_color='white')
-            plt.show()

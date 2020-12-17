@@ -16,7 +16,6 @@ class DataPreparer:
 
         dfTrans["from_club_name"] = dfTrans.apply(lambda row: fromExp if row["from_club_id"] not in clubIds else row["from_club_name"].strip(), axis=1)
         dfTrans["to_club_name"] = dfTrans.apply(lambda row: toIncome if row["to_club_id"] not in clubIds else row["to_club_name"].strip(), axis=1)
-        #dfTrans["thickness"] = dfTrans.apply(lambda row: self.__GetThickness(dfTrans, row), axis=1)
         transferExpenseByClub = dfTrans.groupby(["to_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
         transferExpenseByClub2 = dfTrans.groupby(["from_club_name"]).agg({"fee": "sum"})["fee"].to_dict()
         transferExpenseByClub[fromExp] = transferExpenseByClub2[fromExp]
